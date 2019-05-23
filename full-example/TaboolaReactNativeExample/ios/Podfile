@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TaboolaReactNativeExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TaboolaReactNativeExample
+  pod 'TaboolaSDK', '2.1.2'
+
+  # target 'TaboolaReactNativeExample-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  target 'TaboolaReactNativeExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TaboolaReactNativeExample-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TaboolaReactNativeExample-tvOS
+
+  target 'TaboolaReactNativeExample-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

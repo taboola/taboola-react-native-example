@@ -1,0 +1,5 @@
+rootProject.name = 'TaboolaReactNativeExample'
+include ':@taboola_react-native-taboola'
+project(':@taboola_react-native-taboola').projectDir = new File(rootProject.projectDir, '../node_modules/@taboola/react-native-taboola/android')
+
+include ':app'

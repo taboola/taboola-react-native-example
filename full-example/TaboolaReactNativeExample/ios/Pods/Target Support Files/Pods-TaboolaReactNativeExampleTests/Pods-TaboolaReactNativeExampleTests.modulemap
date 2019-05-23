@@ -1,0 +1,6 @@
+framework module Pods_TaboolaReactNativeExampleTests {
+  umbrella header "Pods-TaboolaReactNativeExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
