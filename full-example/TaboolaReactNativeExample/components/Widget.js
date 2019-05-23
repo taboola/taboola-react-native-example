@@ -1,5 +1,4 @@
 import React from 'react';
-import { View, Platform } from 'react-native';
 import RNTaboolaView from '@taboola/react-native-taboola';
 import PropTypes from 'prop-types';
 
@@ -21,7 +20,7 @@ class Widget extends React.Component {
 				}}
 				onDidLoad={event => {
 					// Set the height of the widget dynamically
-					this.setState({ height: event.nativeEvent.height });
+					this.setState({ height: parseInt(event.nativeEvent.height, 10) });
 					console.warn(
 						'onDidLoad : ' +
 							event.nativeEvent.placementName +
