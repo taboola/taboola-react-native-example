@@ -8,6 +8,7 @@ const Feed = props => {
 
 	return (
 		<RNTaboolaView
+			viewID={props.viewID}
 			mode={props.mode}
 			publisher={props.publisher}
 			pageType={props.pageType}
@@ -17,30 +18,15 @@ const Feed = props => {
 			scrollEnabled={true}
 			interceptScroll={true}
 			style={{ height: height * 2, width: '100%' }}
-			onDidLoad={event => {
-				console.warn(
-					'onDidLoad : ' +
-						event.nativeEvent.placementName +
-						'- height -: ' +
-						event.nativeEvent.height
-				);
-			}}
+			onDidLoad={event => {}}
 			onDidFailToLoad={event => {
 				console.warn(
 					'onRenderFail placementName: ' + event.nativeEvent.placementName
 				);
 				console.warn('onRenderFail error: ' + event.nativeEvent.error);
 			}}
-			onOrganicItemClick={event => {
-				console.warn('onOrganicItemClick ' + event.nativeEvent.itemId);
-				console.warn('url: ' + event.nativeEvent.clickUrl);
-				console.warn('name: ' + event.nativeEvent.placementName);
-			}}
-			onAdItemClick={event => {
-				console.warn('onAdItemClick  ' + event.nativeEvent.itemId);
-				console.warn('url : ' + event.nativeEvent.clickUrl);
-				console.warn('name : ' + event.nativeEvent.placementName);
-			}}
+			onOrganicItemClick={event => {}}
+			onAdItemClick={event => {}}
 		/>
 	);
 };
@@ -61,6 +47,7 @@ Feed.propTypes = {
 	pageUrl: PropTypes.string.isRequired,
 	placement: PropTypes.string.isRequired,
 	targetType: PropTypes.string.isRequired,
+	viewID: PropTypes.string
 };
 
 export default Feed;
