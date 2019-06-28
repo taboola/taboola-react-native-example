@@ -7,6 +7,7 @@ class Widget extends React.Component {
 	render() {
 		return (
 			<RNTaboolaView
+				viewID={this.props.viewID}
 				mode={this.props.mode}
 				publisher={this.props.publisher}
 				pageType={this.props.pageType}
@@ -19,14 +20,12 @@ class Widget extends React.Component {
 					width: '100%',
 				}}
 				onDidLoad={event => {
+					// alert the parent that the widget has loaded and feed can now be loaded
+					this.props.onDidLoad && this.props.onDidLoad();
+					
 					// Set the height of the widget dynamically
 					this.setState({ height: parseInt(event.nativeEvent.height, 10) });
-					console.warn(
-						'onDidLoad : ' +
-							event.nativeEvent.placementName +
-							'- height -: ' +
-							event.nativeEvent.height
-					);
+					
 				}}
 				onDidFailToLoad={event => {
 					console.warn(
@@ -34,16 +33,8 @@ class Widget extends React.Component {
 					);
 					console.warn('onRenderFail error: ' + event.nativeEvent.error);
 				}}
-				onOrganicItemClick={event => {
-					console.warn('onOrganicItemClick ' + event.nativeEvent.itemId);
-					console.warn('url: ' + event.nativeEvent.clickUrl);
-					console.warn('name: ' + event.nativeEvent.placementName);
-				}}
-				onAdItemClick={event => {
-					console.warn('onAdItemClick  ' + event.nativeEvent.itemId);
-					console.warn('url : ' + event.nativeEvent.clickUrl);
-					console.warn('name : ' + event.nativeEvent.placementName);
-				}}
+				onOrganicItemClick={event => {}}
+				onAdItemClick={event => {}}
 			/>
 		);
 	}
@@ -65,6 +56,7 @@ Widget.propTypes = {
 	pageUrl: PropTypes.string.isRequired,
 	placement: PropTypes.string.isRequired,
 	targetType: PropTypes.string.isRequired,
+	viewID: PropTypes.string
 };
 
 export default Widget;

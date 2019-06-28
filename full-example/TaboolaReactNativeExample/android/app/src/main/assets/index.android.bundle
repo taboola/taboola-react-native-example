@@ -1387,7 +1387,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,415,454],"index.js");
+},0,[1,2,415,456],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -88208,7 +88208,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = App;
   exports.default = _default;
-},415,[1,22,23,30,33,36,49,2,416,438,439,441,442,447,452,453],"App.js");
+},415,[1,22,23,30,33,36,49,2,416,440,441,443,444,449,454,455],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88296,7 +88296,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidget;
   exports.default = _default;
-},416,[1,49,2,64,417,419,436,437],"components/ArticleWithWidget.js");
+},416,[1,49,2,64,417,419,438,439],"components/ArticleWithWidget.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88350,6 +88350,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         var _this2 = this;
 
         return _react.default.createElement(_reactNativeTaboola.default, {
+          viewID: this.props.viewID,
           mode: this.props.mode,
           publisher: this.props.publisher,
           pageType: this.props.pageType,
@@ -88362,26 +88363,18 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             width: '100%'
           },
           onDidLoad: function onDidLoad(event) {
+            _this2.props.onDidLoad && _this2.props.onDidLoad();
+
             _this2.setState({
               height: parseInt(event.nativeEvent.height, 10)
             });
-
-            console.warn('onDidLoad : ' + event.nativeEvent.placementName + '- height -: ' + event.nativeEvent.height);
           },
           onDidFailToLoad: function onDidFailToLoad(event) {
             console.warn('onRenderFail placementName: ' + event.nativeEvent.placementName);
             console.warn('onRenderFail error: ' + event.nativeEvent.error);
           },
-          onOrganicItemClick: function onOrganicItemClick(event) {
-            console.warn('onOrganicItemClick ' + event.nativeEvent.itemId);
-            console.warn('url: ' + event.nativeEvent.clickUrl);
-            console.warn('name: ' + event.nativeEvent.placementName);
-          },
-          onAdItemClick: function onAdItemClick(event) {
-            console.warn('onAdItemClick  ' + event.nativeEvent.itemId);
-            console.warn('url : ' + event.nativeEvent.clickUrl);
-            console.warn('name : ' + event.nativeEvent.placementName);
-          },
+          onOrganicItemClick: function onOrganicItemClick(event) {},
+          onAdItemClick: function onAdItemClick(event) {},
           __source: {
             fileName: _jsxFileName,
             lineNumber: 9
@@ -88406,7 +88399,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     pageType: _propTypes.default.string.isRequired,
     pageUrl: _propTypes.default.string.isRequired,
     placement: _propTypes.default.string.isRequired,
-    targetType: _propTypes.default.string.isRequired
+    targetType: _propTypes.default.string.isRequired,
+    viewID: _propTypes.default.string
   };
   var _default = Widget;
   exports.default = _default;
@@ -88429,7 +88423,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       pageUrl: _propTypes.default.string,
       placement: _propTypes.default.string,
       targetType: _propTypes.default.string,
-      setInterceptScroll: _propTypes.default.bool
+      setInterceptScroll: _propTypes.default.bool,
+      viewID: _propTypes.default.string
     }, _reactNative.ViewPropTypes)
   };
   module.exports = (0, _reactNative.requireNativeComponent)('RNTaboolaView', iface);
@@ -88524,7 +88519,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var memoize = _interopDefault(_$$_REQUIRE(_dependencyMap[7], "memoize-one"));
 
-  var reactNative = _interopDefault(_$$_REQUIRE(_dependencyMap[8], "react-native"));
+  var merge = _interopDefault(_$$_REQUIRE(_dependencyMap[8], "merge-anything"));
+
+  var reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
+
+  var reactNative__default = _interopDefault(reactNative);
 
   function murmurhash(c) {
     for (var e = c.length | 0, a = e | 0, d = 0, b; e >= 4;) {
@@ -88647,11 +88646,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     return target && typeof target.styledComponentId === 'string';
   }
 
-  var SC_ATTR = typeof process !== 'undefined' && process.env.SC_ATTR || 'data-styled';
+  var SC_ATTR = typeof process !== 'undefined' && (process.env.REACT_APP_SC_ATTR || process.env.SC_ATTR) || 'data-styled';
   var SC_VERSION_ATTR = 'data-styled-version';
   var SC_STREAM_ATTR = 'data-styled-streamed';
   var IS_BROWSER = typeof window !== 'undefined' && 'HTMLElement' in window;
-  var DISABLE_SPEEDY = typeof SC_DISABLE_SPEEDY === 'boolean' && SC_DISABLE_SPEEDY || process.env.NODE_ENV !== 'production';
+  var DISABLE_SPEEDY = typeof SC_DISABLE_SPEEDY === 'boolean' && SC_DISABLE_SPEEDY || typeof process !== 'undefined' && (process.env.REACT_APP_SC_DISABLE_SPEEDY || process.env.SC_DISABLE_SPEEDY) || process.env.NODE_ENV !== 'production';
   var ERRORS = process.env.NODE_ENV !== 'production' ? {
     "1": "Cannot create styled-component for component: %s.\n\n",
     "2": "Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",
@@ -88693,7 +88692,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       }
 
       if (process.env.NODE_ENV === 'production') {
-        var _this = possibleConstructorReturn(this, _Error.call(this, 'An error occurred. See https://github.com/styled-components/styled-components/blob/master/packages/styled-components/src/utils/errors.md#' + code + ' for more information. ' + (interpolations ? 'Additional arguments: ' + interpolations.join(', ') : '')));
+        var _this = possibleConstructorReturn(this, _Error.call(this, 'An error occurred. See https://github.com/styled-components/styled-components/blob/master/packages/styled-components/src/utils/errors.md#' + code + ' for more information.' + (interpolations.length > 0 ? ' Additional arguments: ' + interpolations.join(', ') : '')));
       } else {
         var _this = possibleConstructorReturn(this, _Error.call(this, format.apply(undefined, [ERRORS[code]].concat(interpolations)).trim()));
       }
@@ -88876,7 +88875,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var makeStyleTag = function makeStyleTag(target, tagEl, insertBefore) {
     var el = document.createElement('style');
     el.setAttribute(SC_ATTR, '');
-    el.setAttribute(SC_VERSION_ATTR, "4.2.0");
+    el.setAttribute(SC_VERSION_ATTR, "4.3.2");
     var nonce = getNonce();
 
     if (nonce) {
@@ -88901,7 +88900,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var wrapAsHtmlTag = function wrapAsHtmlTag(css, names) {
     return function (additionalAttrs) {
       var nonce = getNonce();
-      var attrs = [nonce && 'nonce="' + nonce + '"', SC_ATTR + '="' + stringifyNames(names) + '"', SC_VERSION_ATTR + '="' + "4.2.0" + '"', additionalAttrs];
+      var attrs = [nonce && 'nonce="' + nonce + '"', SC_ATTR + '="' + stringifyNames(names) + '"', SC_VERSION_ATTR + '="' + "4.3.2" + '"', additionalAttrs];
       var htmlAttr = attrs.filter(Boolean).join(' ');
       return '<style ' + htmlAttr + '>' + css() + '</style>';
     };
@@ -88911,7 +88910,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     return function () {
       var _props;
 
-      var props = (_props = {}, _props[SC_ATTR] = stringifyNames(names), _props[SC_VERSION_ATTR] = "4.2.0", _props);
+      var props = (_props = {}, _props[SC_ATTR] = stringifyNames(names), _props[SC_VERSION_ATTR] = "4.3.2", _props);
       var nonce = getNonce();
 
       if (nonce) {
@@ -89276,7 +89275,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       var els = [];
       var extracted = [];
       var isStreamed = false;
-      var nodes = document.querySelectorAll('style[' + SC_ATTR + '][' + SC_VERSION_ATTR + '="' + "4.2.0" + '"]');
+      var nodes = document.querySelectorAll('style[' + SC_ATTR + '][' + SC_VERSION_ATTR + '="' + "4.3.2" + '"]');
       var nodesSize = nodes.length;
       if (!nodesSize) return this;
 
@@ -89502,14 +89501,25 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     return chunk === undefined || chunk === null || chunk === false || chunk === '';
   };
 
-  var objToCss = function objToCss(obj, prevKey) {
-    var css = Object.keys(obj).filter(function (key) {
-      return !isFalsish(obj[key]);
-    }).map(function (key) {
-      if (isPlainObject(obj[key])) return objToCss(obj[key], key);
-      return hyphenateStyleName(key) + ': ' + addUnitIfNeeded(key, obj[key]) + ';';
-    }).join(' ');
-    return prevKey ? prevKey + ' {\n  ' + css + '\n}' : css;
+  var objToCssArray = function objToCssArray(obj, prevKey) {
+    var rules = [];
+    var keys = Object.keys(obj);
+    keys.forEach(function (key) {
+      if (!isFalsish(obj[key])) {
+        if (isPlainObject(obj[key])) {
+          rules.push.apply(rules, objToCssArray(obj[key], key));
+          return rules;
+        } else if (isFunction(obj[key])) {
+          rules.push(hyphenateStyleName(key) + ':', obj[key], ';');
+          return rules;
+        }
+
+        rules.push(hyphenateStyleName(key) + ': ' + addUnitIfNeeded(key, obj[key]) + ';');
+      }
+
+      return rules;
+    });
+    return prevKey ? [prevKey + ' {'].concat(rules, ['}']) : rules;
   };
 
   function flatten(chunk, executionContext, styleSheet) {
@@ -89551,7 +89561,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       } else return chunk;
     }
 
-    return isPlainObject(chunk) ? objToCss(chunk) : chunk.toString();
+    return isPlainObject(chunk) ? objToCssArray(chunk) : chunk.toString();
   }
 
   var printed = {};
@@ -92577,7 +92587,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           return console.warn('The "innerRef" API has been removed in styled-components v4 in favor of React 16 ref forwarding, use "ref" instead like a typical component. "innerRef" was detected on component "' + displayName + '".');
         });
         _this.warnAttrsFnObjectKeyDeprecated = once(function (key, displayName) {
-          return console.warn('Functions as object-form attrs({}) keys are now deprecated and will be removed in a future version of styled-components. Switch to the new attrs(props => ({})) syntax instead for easier and more powerful composition. The attrs key in question is "' + key + '" on component "' + displayName + '".');
+          return console.warn('Functions as object-form attrs({}) keys are now deprecated and will be removed in a future version of styled-components. Switch to the new attrs(props => ({})) syntax instead for easier and more powerful composition. The attrs key in question is "' + key + '" on component "' + displayName + '".', '\n ' + new Error().stack);
         });
         _this.warnNonStyledComponentAttrsObjectKey = once(function (key, displayName) {
           return console.warn('It looks like you\'ve used a non styled-component as the value for the "' + key + '" prop in an object-form attrs constructor of "' + displayName + '".\n' + 'You should use the new function-form attrs constructor which avoids this issue: attrs(props => ({ yourStuff }))\n' + "To continue using the deprecated object syntax, you'll need to wrap your component prop in a function to make it available inside the styled component (you'll still get the deprecation warning though.)\n" + ('For example, { ' + key + ': () => InnerComponent } instead of { ' + key + ': InnerComponent }'));
@@ -92593,28 +92603,24 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return React__default.createElement(ThemeConsumer, null, function (theme) {
         var _props = _this2.props,
             renderAs = _props.as,
+            forwardedAs = _props.forwardedAs,
             forwardedComponent = _props.forwardedComponent,
             forwardedRef = _props.forwardedRef,
             innerRef = _props.innerRef,
             _props$style = _props.style,
             style = _props$style === undefined ? [] : _props$style,
-            props = objectWithoutProperties(_props, ['as', 'forwardedComponent', 'forwardedRef', 'innerRef', 'style']);
+            props = objectWithoutProperties(_props, ['as', 'forwardedAs', 'forwardedComponent', 'forwardedRef', 'innerRef', 'style']);
         var defaultProps = forwardedComponent.defaultProps,
             displayName = forwardedComponent.displayName,
             target = forwardedComponent.target;
-        var generatedStyles = void 0;
 
-        if (theme !== undefined) {
-          var themeProp = determineTheme(_this2.props, theme, defaultProps);
-          generatedStyles = _this2.generateAndInjectStyles(themeProp, _this2.props);
-        } else {
-          generatedStyles = _this2.generateAndInjectStyles(theme || EMPTY_OBJECT, _this2.props);
-        }
+        var generatedStyles = _this2.generateAndInjectStyles(determineTheme(_this2.props, theme, defaultProps) || EMPTY_OBJECT, _this2.props);
 
         var propsForElement = _extends({}, _this2.attrs, props, {
           style: [generatedStyles].concat(style)
         });
 
+        if (forwardedAs) propsForElement.as = forwardedAs;
         if (forwardedRef) propsForElement.ref = forwardedRef;
 
         if (process.env.NODE_ENV !== 'production' && innerRef) {
@@ -92722,6 +92728,15 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         return createStyledNativeComponent(tag, newOptions, rules);
       };
 
+      Object.defineProperty(WrappedStyledNativeComponent, 'defaultProps', {
+        get: function get$$1() {
+          return this._foldedDefaultProps;
+        },
+        set: function set$$1(obj) {
+          this._foldedDefaultProps = isTargetStyledComp ? merge(target.defaultProps, obj) : obj;
+        }
+      });
+
       if (isClass) {
         hoistNonReactStatics(WrappedStyledNativeComponent, target, {
           attrs: true,
@@ -92820,7 +92835,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       enumerable: true,
       configurable: false,
       get: function get() {
-        return styled(reactNative[alias]);
+        return styled(reactNative__default[alias]);
       }
     });
   });
@@ -92831,7 +92846,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   exports.ThemeContext = ThemeContext;
   exports.withTheme = withTheme;
   exports.default = styled;
-},421,[422,423,49,424,65,425,426,435,2],"node_modules/styled-components/native/dist/styled-components.native.cjs.js");
+},421,[422,423,49,424,65,425,426,435,436,2],"node_modules/styled-components/native/dist/styled-components.native.cjs.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   !function (e) {
     "object" == typeof exports && "undefined" != typeof module ? module.exports = e(null) : "function" == typeof define && define.amd ? define(e(null)) : window.stylis = e(null);
@@ -95446,6 +95461,187 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   module.exports = index;
 },435,[],"node_modules/memoize-one/dist/memoize-one.cjs.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  'use strict';
+
+  var isWhat = _$$_REQUIRE(_dependencyMap[0], "is-what");
+
+  function mergeRecursively(origin, newComer, extensions) {
+    if (!isWhat.isPlainObject(newComer)) {
+      if (extensions && isWhat.isArray(extensions)) {
+        extensions.forEach(function (extend) {
+          newComer = extend(origin, newComer);
+        });
+      }
+
+      return newComer;
+    }
+
+    var newObject = isWhat.isPlainObject(origin) ? Object.keys(origin).reduce(function (carry, key) {
+      var targetVal = origin[key];
+      if (!Object.keys(newComer).includes(key)) carry[key] = targetVal;
+      return carry;
+    }, {}) : {};
+    return Object.keys(newComer).reduce(function (carry, key) {
+      var newVal = newComer[key];
+      var targetVal = isWhat.isPlainObject(origin) ? origin[key] : undefined;
+
+      if (extensions && isWhat.isArray(extensions)) {
+        extensions.forEach(function (extend) {
+          newVal = extend(targetVal, newVal);
+        });
+      }
+
+      if (targetVal === undefined) {
+        carry[key] = newVal;
+        return carry;
+      }
+
+      if (isWhat.isPlainObject(newVal)) {
+        carry[key] = mergeRecursively(targetVal, newVal, extensions);
+        return carry;
+      }
+
+      carry[key] = newVal;
+      return carry;
+    }, newObject);
+  }
+
+  function index(origin) {
+    var newComers = [];
+
+    for (var _i = 1; _i < arguments.length; _i++) {
+      newComers[_i - 1] = arguments[_i];
+    }
+
+    var extensions = null;
+    var base = origin;
+
+    if (isWhat.isPlainObject(origin) && origin.extensions && Object.keys(origin).length === 1) {
+      base = {};
+      extensions = origin.extensions;
+    }
+
+    return newComers.reduce(function (result, newComer) {
+      return mergeRecursively(result, newComer, extensions);
+    }, base);
+  }
+
+  module.exports = index;
+},436,[437],"node_modules/merge-anything/dist/index.cjs.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  function getType(payload) {
+    return Object.prototype.toString.call(payload).slice(8, -1);
+  }
+
+  function isUndefined(payload) {
+    return getType(payload) === 'Undefined';
+  }
+
+  function isNull(payload) {
+    return getType(payload) === 'Null';
+  }
+
+  function isPlainObject(payload) {
+    if (getType(payload) !== 'Object') return false;
+    return payload.constructor === Object && Object.getPrototypeOf(payload) === Object.prototype;
+  }
+
+  function isObject(payload) {
+    return isPlainObject(payload);
+  }
+
+  function isAnyObject(payload) {
+    return getType(payload) === 'Object';
+  }
+
+  function isObjectLike(payload) {
+    return isAnyObject(payload);
+  }
+
+  function isFunction(payload) {
+    return getType(payload) === 'Function';
+  }
+
+  function isArray(payload) {
+    return getType(payload) === 'Array';
+  }
+
+  function isString(payload) {
+    return getType(payload) === 'String';
+  }
+
+  function isFullString(payload) {
+    return isString(payload) && payload !== '';
+  }
+
+  function isEmptyString(payload) {
+    return payload === '';
+  }
+
+  function isNumber(payload) {
+    return getType(payload) === 'Number' && !isNaN(payload);
+  }
+
+  function isBoolean(payload) {
+    return getType(payload) === 'Boolean';
+  }
+
+  function isRegExp(payload) {
+    return getType(payload) === 'RegExp';
+  }
+
+  function isDate(payload) {
+    return getType(payload) === 'Date' && !isNaN(payload);
+  }
+
+  function isSymbol(payload) {
+    return getType(payload) === 'Symbol';
+  }
+
+  function isPrimitive(payload) {
+    return isBoolean(payload) || isNull(payload) || isUndefined(payload) || isNumber(payload) || isString(payload) || isSymbol(payload);
+  }
+
+  function isType(payload, type) {
+    if (!(type instanceof Function)) {
+      throw new TypeError('Type must be a function');
+    }
+
+    if (!type.hasOwnProperty('prototype')) {
+      throw new TypeError('Type is not a class');
+    }
+
+    var name = type.name;
+    return getType(payload) === name || Boolean(payload && payload.constructor === type);
+  }
+
+  exports.getType = getType;
+  exports.isUndefined = isUndefined;
+  exports.isNull = isNull;
+  exports.isPlainObject = isPlainObject;
+  exports.isObject = isObject;
+  exports.isAnyObject = isAnyObject;
+  exports.isObjectLike = isObjectLike;
+  exports.isFunction = isFunction;
+  exports.isArray = isArray;
+  exports.isString = isString;
+  exports.isFullString = isFullString;
+  exports.isEmptyString = isEmptyString;
+  exports.isNumber = isNumber;
+  exports.isBoolean = isBoolean;
+  exports.isRegExp = isRegExp;
+  exports.isDate = isDate;
+  exports.isSymbol = isSymbol;
+  exports.isPrimitive = isPrimitive;
+  exports.isType = isType;
+},437,[],"node_modules/is-what/dist/index.cjs.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
   Object.defineProperty(exports, "__esModule", {
@@ -95471,7 +95667,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = StyledText;
   exports.default = _default;
-},436,[1,420,421],"components/styles/StyledText.js");
+},438,[1,420,421],"components/styles/StyledText.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95498,7 +95694,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Header;
   exports.default = _default;
-},437,[1,420,421],"components/styles/Header.js");
+},439,[1,420,421],"components/styles/Header.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95609,7 +95805,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetInFlatList;
   exports.default = _default;
-},438,[1,49,2,64,417,419,436,437],"components/ArticleWithWidgetInFlatList.js");
+},440,[1,49,2,64,417,419,438,439],"components/ArticleWithWidgetInFlatList.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95690,7 +95886,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithFeed;
   exports.default = _default;
-},439,[1,49,2,64,440,419,436,437],"components/ArticleWithFeed.js");
+},441,[1,49,2,64,442,419,438,439],"components/ArticleWithFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95714,6 +95910,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         height = _Dimensions$get.height;
 
     return _react.default.createElement(_reactNativeTaboola.default, {
+      viewID: props.viewID,
       mode: props.mode,
       publisher: props.publisher,
       pageType: props.pageType,
@@ -95726,23 +95923,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         height: height * 2,
         width: '100%'
       },
-      onDidLoad: function onDidLoad(event) {
-        console.warn('onDidLoad : ' + event.nativeEvent.placementName + '- height -: ' + event.nativeEvent.height);
-      },
+      onDidLoad: function onDidLoad(event) {},
       onDidFailToLoad: function onDidFailToLoad(event) {
         console.warn('onRenderFail placementName: ' + event.nativeEvent.placementName);
         console.warn('onRenderFail error: ' + event.nativeEvent.error);
       },
-      onOrganicItemClick: function onOrganicItemClick(event) {
-        console.warn('onOrganicItemClick ' + event.nativeEvent.itemId);
-        console.warn('url: ' + event.nativeEvent.clickUrl);
-        console.warn('name: ' + event.nativeEvent.placementName);
-      },
-      onAdItemClick: function onAdItemClick(event) {
-        console.warn('onAdItemClick  ' + event.nativeEvent.itemId);
-        console.warn('url : ' + event.nativeEvent.clickUrl);
-        console.warn('name : ' + event.nativeEvent.placementName);
-      },
+      onOrganicItemClick: function onOrganicItemClick(event) {},
+      onAdItemClick: function onAdItemClick(event) {},
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
@@ -95764,11 +95951,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     pageType: _propTypes.default.string.isRequired,
     pageUrl: _propTypes.default.string.isRequired,
     placement: _propTypes.default.string.isRequired,
-    targetType: _propTypes.default.string.isRequired
+    targetType: _propTypes.default.string.isRequired,
+    viewID: _propTypes.default.string
   };
   var _default = Feed;
   exports.default = _default;
-},440,[1,49,2,418,64],"components/Feed.js");
+},442,[1,49,2,418,64],"components/Feed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95777,88 +95965,139 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   });
   exports.default = void 0;
 
-  var _react = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "react"));
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/classCallCheck"));
 
-  var _reactNative = _$$_REQUIRE(_dependencyMap[2], "react-native");
+  var _createClass2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/createClass"));
 
-  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "prop-types"));
+  var _possibleConstructorReturn2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "@babel/runtime/helpers/possibleConstructorReturn"));
 
-  var _Widget = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "./Widget"));
+  var _getPrototypeOf3 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf"));
 
-  var _Feed = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "./Feed"));
+  var _inherits2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/inherits"));
 
-  var _BackButton = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "./styles/BackButton"));
+  var _react = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "react"));
 
-  var _StyledText = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./styles/StyledText"));
+  var _reactNative = _$$_REQUIRE(_dependencyMap[7], "react-native");
 
-  var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./styles/Header"));
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "prop-types"));
+
+  var _Widget = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./Widget"));
+
+  var _Feed = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./Feed"));
+
+  var _BackButton = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "./styles/BackButton"));
+
+  var _StyledText = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[12], "./styles/StyledText"));
+
+  var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[13], "./styles/Header"));
 
   var _jsxFileName = "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeed.js";
 
-  var ArticleWithWidgetAndFeed = function ArticleWithWidgetAndFeed(props) {
-    return _react.default.createElement(_reactNative.View, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
+  var ArticleWithWidgetAndFeed = function (_React$Component) {
+    (0, _inherits2.default)(ArticleWithWidgetAndFeed, _React$Component);
+
+    function ArticleWithWidgetAndFeed() {
+      var _getPrototypeOf2;
+
+      var _this;
+
+      (0, _classCallCheck2.default)(this, ArticleWithWidgetAndFeed);
+
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
       }
-    }, _react.default.createElement(_BackButton.default, {
-      onPress: function onPress(e) {
-        return props.back();
-      },
-      title: "Back",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
+
+      _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(ArticleWithWidgetAndFeed)).call.apply(_getPrototypeOf2, [this].concat(args)));
+      _this.state = {
+        widgetLoaded: false,
+        viewID: new Date().getTime().toString()
+      };
+      return _this;
+    }
+
+    (0, _createClass2.default)(ArticleWithWidgetAndFeed, [{
+      key: "setWidgetLoaded",
+      value: function setWidgetLoaded() {
+        this.setState({
+          widgetLoaded: true
+        });
       }
-    }), _react.default.createElement(_reactNative.ScrollView, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
+    }, {
+      key: "render",
+      value: function render() {
+        var _this2 = this;
+
+        return _react.default.createElement(_reactNative.View, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          }
+        }, _react.default.createElement(_BackButton.default, {
+          onPress: function onPress(e) {
+            return _this2.props.back();
+          },
+          title: "Back",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23
+          }
+        }), _react.default.createElement(_reactNative.ScrollView, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          }
+        }, _react.default.createElement(_Header.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          }
+        }, "Here's a Taboola Widget"), _react.default.createElement(_StyledText.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          }
+        }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 35
+          }
+        }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 44
+          }
+        }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Widget.default, {
+          viewID: this.state.viewID,
+          onDidLoad: function onDidLoad(e) {
+            return _this2.setWidgetLoaded();
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 60
+          }
+        }), _react.default.createElement(_StyledText.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 64
+          }
+        }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), this.state.widgetLoaded && _react.default.createElement(_Feed.default, {
+          viewID: this.state.viewID,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80
+          }
+        })));
       }
-    }, _react.default.createElement(_Header.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15
-      }
-    }, "Here's a Taboola Widget"), _react.default.createElement(_StyledText.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 34
-      }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Widget.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49
-      }
-    }), _react.default.createElement(_StyledText.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50
-      }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Feed.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65
-      }
-    })));
-  };
+    }]);
+    return ArticleWithWidgetAndFeed;
+  }(_react.default.Component);
 
   ArticleWithWidgetAndFeed.propTypes = {
     back: _propTypes.default.func.isRequired
   };
   var _default = ArticleWithWidgetAndFeed;
   exports.default = _default;
-},441,[1,49,2,64,417,440,419,436,437],"components/ArticleWithWidgetAndFeed.js");
+},443,[1,22,23,30,33,36,49,2,64,417,442,419,438,439],"components/ArticleWithWidgetAndFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95973,7 +96212,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }(_react.Component);
 
   exports.default = HomePage;
-},442,[1,443,22,23,30,33,36,49,2,444,446],"components/HomePage.js");
+},444,[1,445,22,23,30,33,36,49,2,446,448],"components/HomePage.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
@@ -96001,7 +96240,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = _interopRequireWildcard;
-},443,[],"node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+},445,[],"node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96044,7 +96283,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = TaboolaLogo;
   exports.default = _default;
-},444,[1,420,49,421,445],"components/TaboolaLogo.js");
+},446,[1,420,49,421,447],"components/TaboolaLogo.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/AssetRegistry").registerAsset({
     "__packager_asset": true,
@@ -96056,7 +96295,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     "name": "taboola-logo",
     "type": "png"
   });
-},445,[191],"assets/taboola-logo.png");
+},447,[191],"assets/taboola-logo.png");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96105,7 +96344,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = NavButton;
   exports.default = _default;
-},446,[1,11,420,49,2,421],"components/styles/NavButton.js");
+},448,[1,11,420,49,2,421],"components/styles/NavButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96375,7 +96614,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = WidgetForm;
   exports.default = _default;
-},447,[1,443,11,46,22,23,30,33,36,49,2,64,417,448,450,419,451,437],"components/WidgetForm.js");
+},449,[1,445,11,46,22,23,30,33,36,49,2,64,417,450,452,419,453,439],"components/WidgetForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96405,7 +96644,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = CustomTextInput;
   exports.default = _default;
-},448,[1,11,49,449],"components/CustomTextInput.js");
+},450,[1,11,49,451],"components/CustomTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96458,7 +96697,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = StyledTextInput;
   exports.default = _default;
-},449,[1,11,420,49,2,421],"components/styles/StyledTextInput.js");
+},451,[1,11,420,49,2,421],"components/styles/StyledTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96485,7 +96724,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Label;
   exports.default = _default;
-},450,[1,420,421],"components/styles/Label.js");
+},452,[1,420,421],"components/styles/Label.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96560,7 +96799,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = SubmitButton;
   exports.default = _default;
-},451,[1,11,420,49,2,421],"components/styles/SubmitButton.js");
+},453,[1,11,420,49,2,421],"components/styles/SubmitButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96823,7 +97062,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = FeedForm;
   exports.default = _default;
-},452,[1,443,11,46,22,23,30,33,36,49,2,64,440,448,450,419,451,437],"components/FeedForm.js");
+},454,[1,445,11,46,22,23,30,33,36,49,2,64,442,450,452,419,453,439],"components/FeedForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96850,12 +97089,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Container;
   exports.default = _default;
-},453,[1,420,421],"components/styles/Container.js");
+},455,[1,420,421],"components/styles/Container.js");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "TaboolaReactNativeExample",
   "displayName": "TaboolaReactNativeExample"
 };
-},454,[],"app.json");
+},456,[],"app.json");
 __r(86);
 __r(0);
