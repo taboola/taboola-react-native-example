@@ -1387,7 +1387,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,415,456],"index.js");
+},0,[1,2,415,457],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -88208,7 +88208,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = App;
   exports.default = _default;
-},415,[1,22,23,30,33,36,49,2,416,440,441,443,444,449,454,455],"App.js");
+},415,[1,22,23,30,33,36,49,2,416,441,442,444,445,450,455,456],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88231,13 +88231,15 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./styles/Header"));
 
+  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
+
   var _jsxFileName = "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidget.js";
 
   var ArticleWithWidget = function ArticleWithWidget(props) {
     return _react.default.createElement(_reactNative.View, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       }
     }, _react.default.createElement(_BackButton.default, {
       onPress: function onPress(e) {
@@ -88246,49 +88248,39 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       title: "Back",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 13
       }
     }), _react.default.createElement(_reactNative.ScrollView, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 14
       }
     }, _react.default.createElement(_Header.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       }
     }, "Here's a Taboola Widget"), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+    }, _paragraphs.default[0]), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 17
       }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_StyledText.default, {
+    }, _paragraphs.default[1]), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 18
       }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+    }, _paragraphs.default[2]), _react.default.createElement(_Widget.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 19
       }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Widget.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63
-      }
-    }), _react.default.createElement(_StyledText.default, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 64
-      }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?")));
+    })));
   };
 
   ArticleWithWidget.propTypes = {
@@ -88296,7 +88288,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidget;
   exports.default = _default;
-},416,[1,49,2,64,417,419,438,439],"components/ArticleWithWidget.js");
+},416,[1,49,2,64,417,419,438,439,440],"components/ArticleWithWidget.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -88357,7 +88349,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           pageUrl: this.props.pageUrl,
           placement: this.props.placement,
           targetType: this.props.targetType,
-          scrollEnabled: false,
+          scrollEnabled: this.props.scrollEnabled || false,
           style: {
             height: this.state.height,
             width: '100%'
@@ -95696,6 +95688,15 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   exports.default = _default;
 },439,[1,420,421],"components/styles/Header.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+  var paragraphs = ["Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.", "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"];
+  var _default = paragraphs;
+  exports.default = _default;
+},440,[],"static/paragraphs.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
   Object.defineProperty(exports, "__esModule", {
@@ -95717,6 +95718,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./styles/Header"));
 
+  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
+
   var _jsxFileName = "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetInFlatList.js";
 
   var ArticleWithWidgetInFlatList = function ArticleWithWidgetInFlatList(props) {
@@ -95726,20 +95729,20 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         fileName: _jsxFileName,
         lineNumber: 11
       }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+    }, _paragraphs.default[0]);
 
     var p2 = _react.default.createElement(_StyledText.default, {
       key: "p2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 13
       }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?");
+    }, _paragraphs.default[1]);
 
     return _react.default.createElement(_reactNative.View, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 15
       }
     }, _react.default.createElement(_BackButton.default, {
       onPress: function onPress(e) {
@@ -95748,17 +95751,17 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       title: "Back",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 16
       }
     }), _react.default.createElement(_reactNative.ScrollView, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 17
       }
     }, _react.default.createElement(_Header.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 18
       }
     }, "Here's a Taboola Widget"), _react.default.createElement(_reactNative.FlatList, {
       style: {
@@ -95785,7 +95788,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             return _react.default.createElement(_Widget.default, {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 53
+                lineNumber: 29
               }
             });
 
@@ -95795,7 +95798,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 19
       }
     })));
   };
@@ -95805,7 +95808,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetInFlatList;
   exports.default = _default;
-},440,[1,49,2,64,417,419,438,439],"components/ArticleWithWidgetInFlatList.js");
+},441,[1,49,2,64,417,419,438,439,440],"components/ArticleWithWidgetInFlatList.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95828,6 +95831,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./styles/Header"));
 
+  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
+
   var _jsxFileName = "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithFeed.js";
 
   var ArticleWithFeed = function ArticleWithFeed(props) {
@@ -95837,7 +95842,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       }
     }, _react.default.createElement(_BackButton.default, {
       onPress: function onPress(e) {
@@ -95846,37 +95851,37 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       title: "Back",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 13
       }
     }), _react.default.createElement(_reactNative.ScrollView, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 14
       }
     }, _react.default.createElement(_Header.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       }
     }, "Here's a Taboola Feed"), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       }
-    }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_StyledText.default, {
+    }, _paragraphs.default[0]), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 17
       }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_StyledText.default, {
+    }, _paragraphs.default[1]), _react.default.createElement(_StyledText.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 18
       }
-    }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Feed.default, {
+    }, _paragraphs.default[2]), _react.default.createElement(_Feed.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 19
       }
     })));
   };
@@ -95886,7 +95891,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithFeed;
   exports.default = _default;
-},441,[1,49,2,64,442,419,438,439],"components/ArticleWithFeed.js");
+},442,[1,49,2,64,443,419,438,439,440],"components/ArticleWithFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95942,7 +95947,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     publisher: 'sdk-tester',
     pageType: 'article',
     pageUrl: 'https://blog.taboola.com',
-    placement: 'Feed with video',
+    placement: 'Feed without video',
     targetType: 'mix'
   };
   Feed.propTypes = {
@@ -95956,7 +95961,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = Feed;
   exports.default = _default;
-},442,[1,49,2,418,64],"components/Feed.js");
+},443,[1,49,2,418,64],"components/Feed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -95991,6 +95996,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[13], "./styles/Header"));
 
+  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[14], "../static/paragraphs"));
+
   var _jsxFileName = "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeed.js";
 
   var ArticleWithWidgetAndFeed = function (_React$Component) {
@@ -96009,7 +96016,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
       _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(ArticleWithWidgetAndFeed)).call.apply(_getPrototypeOf2, [this].concat(args)));
       _this.state = {
-        widgetLoaded: false,
+        widgetLoaded: true,
         viewID: new Date().getTime().toString()
       };
       return _this;
@@ -96030,7 +96037,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         return _react.default.createElement(_reactNative.View, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22
+            lineNumber: 23
           }
         }, _react.default.createElement(_BackButton.default, {
           onPress: function onPress(e) {
@@ -96039,52 +96046,53 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Back",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23
+            lineNumber: 24
           }
         }), _react.default.createElement(_reactNative.ScrollView, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 24
+            lineNumber: 25
           }
         }, _react.default.createElement(_Header.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 25
-          }
-        }, "Here's a Taboola Widget"), _react.default.createElement(_StyledText.default, {
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 26
           }
-        }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+        }, "Here's a Taboola Widget and Feed"), _react.default.createElement(_StyledText.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35
+            lineNumber: 27
           }
-        }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), _react.default.createElement(_StyledText.default, {
+        }, _paragraphs.default[0]), _react.default.createElement(_StyledText.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 28
           }
-        }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), _react.default.createElement(_Widget.default, {
+        }, _paragraphs.default[1]), _react.default.createElement(_StyledText.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29
+          }
+        }, _paragraphs.default[2]), _react.default.createElement(_Widget.default, {
           viewID: this.state.viewID,
           onDidLoad: function onDidLoad(e) {
             return _this2.setWidgetLoaded();
           },
+          scrollEnabled: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 30
           }
         }), _react.default.createElement(_StyledText.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64
+            lineNumber: 35
           }
-        }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"), this.state.widgetLoaded && _react.default.createElement(_Feed.default, {
+        }, _paragraphs.default[1]), this.state.widgetLoaded && _react.default.createElement(_Feed.default, {
           viewID: this.state.viewID,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 80
+            lineNumber: 38
           }
         })));
       }
@@ -96097,7 +96105,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetAndFeed;
   exports.default = _default;
-},443,[1,22,23,30,33,36,49,2,64,417,442,419,438,439],"components/ArticleWithWidgetAndFeed.js");
+},444,[1,22,23,30,33,36,49,2,64,417,443,419,438,439,440],"components/ArticleWithWidgetAndFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96212,7 +96220,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }(_react.Component);
 
   exports.default = HomePage;
-},444,[1,445,22,23,30,33,36,49,2,446,448],"components/HomePage.js");
+},445,[1,446,22,23,30,33,36,49,2,447,449],"components/HomePage.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireWildcard(obj) {
     if (obj && obj.__esModule) {
@@ -96240,7 +96248,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = _interopRequireWildcard;
-},445,[],"node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
+},446,[],"node_modules/@babel/runtime/helpers/interopRequireWildcard.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96283,7 +96291,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = TaboolaLogo;
   exports.default = _default;
-},446,[1,420,49,421,447],"components/TaboolaLogo.js");
+},447,[1,420,49,421,448],"components/TaboolaLogo.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "/Users/mark.sauer.utley/Development/monorepo-react-native/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/AssetRegistry").registerAsset({
     "__packager_asset": true,
@@ -96295,7 +96303,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     "name": "taboola-logo",
     "type": "png"
   });
-},447,[191],"assets/taboola-logo.png");
+},448,[191],"assets/taboola-logo.png");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96344,7 +96352,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = NavButton;
   exports.default = _default;
-},448,[1,11,420,49,2,421],"components/styles/NavButton.js");
+},449,[1,11,420,49,2,421],"components/styles/NavButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96614,7 +96622,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = WidgetForm;
   exports.default = _default;
-},449,[1,445,11,46,22,23,30,33,36,49,2,64,417,450,452,419,453,439],"components/WidgetForm.js");
+},450,[1,446,11,46,22,23,30,33,36,49,2,64,417,451,453,419,454,439],"components/WidgetForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96644,7 +96652,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = CustomTextInput;
   exports.default = _default;
-},450,[1,11,49,451],"components/CustomTextInput.js");
+},451,[1,11,49,452],"components/CustomTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96697,7 +96705,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = StyledTextInput;
   exports.default = _default;
-},451,[1,11,420,49,2,421],"components/styles/StyledTextInput.js");
+},452,[1,11,420,49,2,421],"components/styles/StyledTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96724,7 +96732,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Label;
   exports.default = _default;
-},452,[1,420,421],"components/styles/Label.js");
+},453,[1,420,421],"components/styles/Label.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -96799,7 +96807,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = SubmitButton;
   exports.default = _default;
-},453,[1,11,420,49,2,421],"components/styles/SubmitButton.js");
+},454,[1,11,420,49,2,421],"components/styles/SubmitButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97062,7 +97070,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = FeedForm;
   exports.default = _default;
-},454,[1,445,11,46,22,23,30,33,36,49,2,64,442,450,452,419,453,439],"components/FeedForm.js");
+},455,[1,446,11,46,22,23,30,33,36,49,2,64,443,451,453,419,454,439],"components/FeedForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97089,12 +97097,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Container;
   exports.default = _default;
-},455,[1,420,421],"components/styles/Container.js");
+},456,[1,420,421],"components/styles/Container.js");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "TaboolaReactNativeExample",
   "displayName": "TaboolaReactNativeExample"
 };
-},456,[],"app.json");
+},457,[],"app.json");
 __r(86);
 __r(0);

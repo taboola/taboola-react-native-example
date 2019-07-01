@@ -36,7 +36,7 @@ Feed.defaultProps = {
 	publisher: 'sdk-tester',
 	pageType: 'article',
 	pageUrl: 'https://blog.taboola.com',
-	placement: 'Feed with video',
+	placement: 'Feed without video',
 	targetType: 'mix',
 };
 
@@ -47,7 +47,7 @@ Feed.propTypes = {
 	pageUrl: PropTypes.string.isRequired,
 	placement: PropTypes.string.isRequired,
 	targetType: PropTypes.string.isRequired,
-	viewID: PropTypes.string
+	viewID: PropTypes.string,
 };
 
 export default Feed;

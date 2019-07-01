@@ -22,10 +22,9 @@ class Widget extends React.Component {
 				onDidLoad={event => {
 					// alert the parent that the widget has loaded and feed can now be loaded
 					this.props.onDidLoad && this.props.onDidLoad();
-					
+
 					// Set the height of the widget dynamically
 					this.setState({ height: parseInt(event.nativeEvent.height, 10) });
-					
 				}}
 				onDidFailToLoad={event => {
 					console.warn(
@@ -56,7 +55,7 @@ Widget.propTypes = {
 	pageUrl: PropTypes.string.isRequired,
 	placement: PropTypes.string.isRequired,
 	targetType: PropTypes.string.isRequired,
-	viewID: PropTypes.string
+	viewID: PropTypes.string,
 };
 
 export default Widget;
