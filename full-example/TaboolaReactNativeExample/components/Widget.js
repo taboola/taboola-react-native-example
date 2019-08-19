@@ -1,52 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import RNTaboolaView from '@taboola/react-native-taboola';
 import PropTypes from 'prop-types';
 
-class Widget extends React.Component {
-	state = { height: 0 };
-	render() {
-		return (
-			<RNTaboolaView
-				mode={this.props.mode}
-				publisher={this.props.publisher}
-				pageType={this.props.pageType}
-				pageUrl={this.props.pageUrl}
-				placement={this.props.placement}
-				targetType={this.props.targetType}
-				scrollEnabled={false}
-				style={{
-					height: this.state.height,
-					width: '100%',
-				}}
-				onDidLoad={event => {
-					// Set the height of the widget dynamically
-					this.setState({ height: parseInt(event.nativeEvent.height, 10) });
-					console.warn(
-						'onDidLoad : ' +
-							event.nativeEvent.placementName +
-							'- height -: ' +
-							event.nativeEvent.height
-					);
-				}}
-				onDidFailToLoad={event => {
-					console.warn(
-						'onRenderFail placementName: ' + event.nativeEvent.placementName
-					);
-					console.warn('onRenderFail error: ' + event.nativeEvent.error);
-				}}
-				onOrganicItemClick={event => {
-					console.warn('onOrganicItemClick ' + event.nativeEvent.itemId);
-					console.warn('url: ' + event.nativeEvent.clickUrl);
-					console.warn('name: ' + event.nativeEvent.placementName);
-				}}
-				onAdItemClick={event => {
-					console.warn('onAdItemClick  ' + event.nativeEvent.itemId);
-					console.warn('url : ' + event.nativeEvent.clickUrl);
-					console.warn('name : ' + event.nativeEvent.placementName);
-				}}
-			/>
-		);
-	}
+const Widget = props => {
+	const [height, setHeight] = useState(0);
+
+	return (
+		<RNTaboolaView
+			mode={props.mode}
+			publisher={props.publisher}
+			pageType={props.pageType}
+			pageUrl={props.pageUrl}
+			placement={props.placement}
+			targetType={props.targetType}
+			scrollEnabled={false}
+			style={{
+				height,
+				width: '100%',
+			}}
+			onDidLoad={event => {
+				// Set the height of the widget dynamically
+				setHeight(parseInt(event.nativeEvent.height, 10));
+			}}
+			onDidFailToLoad={event => {}}
+			onOrganicItemClick={event => {}}
+			onAdItemClick={event => {}}
+		/>
+	);
 }
 
 Widget.defaultProps = {
