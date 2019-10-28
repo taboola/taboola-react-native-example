@@ -8,3 +8,4 @@
 #import "TaboolaView.h"
 #import "TaboolaApi.h"
 #import "TaboolaJS.h"
+#import "Taboola.h"

@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "TBRecommendationRequest.h"
 #import "TBRecommendationResponse.h"
+#import "TBLoggerLevel.h"
+
 
 typedef void(^TBRecommendationRequestSuccessCallback)(TBRecommendationResponse *response);
 typedef void(^TBRecommendationRequestFailureCallback)(NSError *error);
@@ -21,6 +23,8 @@ typedef void(^TBRecommendationRequestFailureCallback)(NSError *error);
 @property (nonatomic, readonly) NSString *apiKey;
 @property (nonatomic, readonly) NSString *publisherId;
 @property (nonatomic, weak) id<TaboolaApiClickDelegate> clickDelegate;
+
+@property(nonatomic, readwrite) LogLevel logLevel;
 
 
 //call this method in AppDelegate

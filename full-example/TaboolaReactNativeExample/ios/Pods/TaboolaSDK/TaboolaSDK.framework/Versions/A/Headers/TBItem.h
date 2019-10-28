@@ -11,20 +11,9 @@
 #import "TBBrandingLabel.h"
 #import "TBDescriptionLabel.h"
 
-
-@class TBItemModel;
-
-@protocol TBPlacementDelegate <NSObject>
--(void)notifyVisibleEvent;
--(void)notifyAvailableEvent;
-@end
-
-
 @interface TBItem : NSObject
 
-@property (nonatomic, weak) id<TBPlacementDelegate> placementDelegate;
-
-- (instancetype)initWithItemModel:(TBItemModel *)model;
+@property (nonatomic, weak) UIScrollView *parentScrollView;
 
 //create UIViews manually
 - (TBImageView *)thumbnailView;
@@ -34,6 +23,7 @@
 - (TBDescriptionLabel *)descriptionView;
 - (NSDictionary *)extraDataDictionary;
 
+
 //create UIViews from storyboard
 - (void)initTitleView:(TBTitleLabel *)titleLabel;
 - (void)initBrandingView:(TBBrandingLabel *)brandingLabel;
@@ -41,8 +31,6 @@
 - (void)initThumbnailView:(TBImageView *)imageView;
 - (void)initThumbnailView:(TBImageView *)imageView completed:(void (^)(NSError *, UIImage *))completed;
 
--(void)handleClickEvent;
--(void)notifyVisibleEvent;
--(void)notifyAvailableEvent;
+- (void)notifyVisibleEvent;
 
 @end

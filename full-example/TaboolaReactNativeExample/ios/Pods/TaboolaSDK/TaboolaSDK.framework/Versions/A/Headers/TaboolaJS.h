@@ -24,6 +24,7 @@
  */
 @property (nonatomic, weak) id<TaboolaJSDelegate> delegate;
 
+
 /**
  @return a singleton instance of the SDK
  */
@@ -35,11 +36,9 @@
  @param webView webview with HTML/JS widget
  */
 - (void)registerWebView:(UIView*)webview withDelegate:(id<TaboolaJSDelegate>)delegate;
-- (void)registerWebView:(UIView*) webView;
+- (void)registerWebView:(UIView*) webView;__deprecated_msg("Method is deprecated. Use 'registerWebView:withDelegate:' instead");
 
 -(void)fetchContent:(UIView*)webview;
-
--(void)showProgressBar:(UIView*)webview;
 
 /**
  Unregisters an already registered webView from Taboola JS SDK. It is required to reload/load the page after unregistering the webview
@@ -76,11 +75,7 @@
  */
 - (void)setExtraPropetries:(NSDictionary*) properties;
 
-/**
- Get all active extra properties
- */
-- (NSDictionary *)extraProperties;
 
-- (void)didMoveToSuperview:(UIView*_Nullable) webView;
+
 
 @end

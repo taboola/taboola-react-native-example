@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -13,7 +12,6 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* TaboolaReactNativeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TaboolaReactNativeExampleTests.m */; };
-		0C215E24BEC84ECFBFC4403B /* libRNTaboola.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 118AC3F02300484F9AFBE8B8 /* libRNTaboola.a */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -45,6 +43,7 @@
 		C334189B8639C9A0F81B4710 /* Pods_TaboolaReactNativeExample_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009D6C7588627BBB3ECE53F7 /* Pods_TaboolaReactNativeExample_tvOSTests.framework */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		D3D385968F2B443FA98BE5DC /* libRNTaboola.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC175489960746A3B97745E6 /* libRNTaboola.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,7 +334,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TaboolaReactNativeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaboolaReactNativeExampleTests.m; sourceTree = "<group>"; };
 		028857E47F3554708220A4AD /* Pods_TaboolaReactNativeExample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaboolaReactNativeExample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		118AC3F02300484F9AFBE8B8 /* libRNTaboola.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNTaboola.a; path = libRNTaboola.a; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TaboolaReactNativeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaboolaReactNativeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -361,11 +359,12 @@
 		8DAB7B1A87EF034A88E5F748 /* Pods_TaboolaReactNativeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaboolaReactNativeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B53423382854AE9C5C743ABC /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOS/Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BE25589760554880BB9C1EDA /* RNTaboola.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNTaboola.xcodeproj; path = "../node_modules/@taboola/react-native-taboola/ios/RNTaboola.xcodeproj"; sourceTree = "<group>"; };
 		C4DB8D63003E478853EABCA9 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExampleTests/Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64EF54163C9E5A8252859C5 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOSTests/Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		E2075694C2BA45329AD190DC /* RNTaboola.xcodeproj */ = {isa = PBXFileReference; name = "RNTaboola.xcodeproj"; path = "../node_modules/@taboola/react-native-taboola/ios/RNTaboola.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		FC175489960746A3B97745E6 /* libRNTaboola.a */ = {isa = PBXFileReference; name = "libRNTaboola.a"; path = "libRNTaboola.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,8 +394,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				0C215E24BEC84ECFBFC4403B /* libRNTaboola.a in Frameworks */,
 				47AB689246C00AB05C94B32A /* Pods_TaboolaReactNativeExample.framework in Frameworks */,
+				D3D385968F2B443FA98BE5DC /* libRNTaboola.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +591,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				BE25589760554880BB9C1EDA /* RNTaboola.xcodeproj */,
+				E2075694C2BA45329AD190DC /* RNTaboola.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";

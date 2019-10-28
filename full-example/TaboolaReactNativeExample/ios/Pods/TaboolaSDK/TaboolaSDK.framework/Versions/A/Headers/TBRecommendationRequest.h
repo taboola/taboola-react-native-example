@@ -26,8 +26,9 @@ typedef enum {
 - (void)setSourceId:(NSString *)sourceId;
 - (void)setUserReferrer:(NSString*) referrer;
 - (void)setUnidiedId:(NSString*) unifiedId;
+- (void)setViewId:(NSString*) viewId;
 
-- (NSDictionary *)parameters;
+- (NSMutableDictionary *)parameters;
 - (void)addPlacementRequest:(TBPlacementRequest *)parameters;
 
 - (instancetype)createNextBatchRequest:(NSString *)placementName itemsCount:(NSUInteger)itemsCount;

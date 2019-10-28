@@ -8,14 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-typedef NS_ENUM(NSInteger, LogLevel) {
-    LogLevelDebug   = 0,
-    LogLevelInfo    = 1,
-    LogLevelWarning = 2,
-    LogLevelError   = 3
-};
-
+#import "TBLoggerLevel.h"
 
 /**
  This protocol should be implemented by the host app. TaboolaView sends various lifecycle events to the delegate, to allow more flexibility for the host app.
@@ -62,9 +55,9 @@ typedef NS_ENUM(NSInteger, LogLevel) {
 
 @optional
 
-- (void)taboolaViewResizedToHeight:(CGFloat)height;
+- (void)taboolaViewResizedToHeight:(CGFloat)height; __deprecated_msg("Method is deprecated. Use 'taboolaView: didLoadPlacementNamed: didLoadPlacementNamed: withHeight:' instead");
 
-- (void)taboolaView:(UIView*) taboolaView placementNamed:(NSString *) placementName resizedToHeight:(CGFloat)height;
+- (void)taboolaView:(UIView*) taboolaView placementNamed:(NSString *) placementName resizedToHeight:(CGFloat)height; __deprecated_msg("Method is deprecated. Use 'taboolaView: didLoadPlacementNamed: didLoadPlacementNamed: withHeight:' instead");
 /**
  Triggered when the taboolaView resizes after content render
  Use 'taboolaViewResizedToHeight:' instead of this function, which will be deprecated in a future release.
@@ -80,6 +73,7 @@ typedef NS_ENUM(NSInteger, LogLevel) {
  Triggered when clicked save For Later.
  */
 - (void)clickedOnAction:(NSNumber*)actionType data:(NSDictionary*)data;
+
 @end
 
 /**
@@ -130,6 +124,8 @@ typedef NS_ENUM(NSInteger, LogLevel) {
 @property(nonatomic, strong) NSString *pageId;
 
 @property(nonatomic, strong) NSString *progressBarColor;
+
+@property(nonatomic) CGFloat progressBarAnimationTime;
 
 /**
  Optional. Attaches a TaboolaViewDelegate to the TaboolaView. Allows intercepting clicks.
@@ -188,6 +184,22 @@ typedef NS_ENUM(NSInteger, LogLevel) {
  */
 @property(nonatomic, readwrite) BOOL overrideScrollIntercept;
 
+/**
+ In feed, set scrollIntercept to Yes (defult NO);
+ */
+-(void)setInterceptScroll:(BOOL)scrollIntercept;
+
+/**
+ Show progressbar in scroll switch in feed
+ */
+-(void)setProgressBarEnabled:(BOOL)progressBarEnabled;
+
+
+
+
+
+
+
 + (CGFloat) widgetHeight;
 
 /**
@@ -207,12 +219,6 @@ typedef NS_ENUM(NSInteger, LogLevel) {
  */
 -(void)setOptionalModeCommands:(NSDictionary *)pCommands;
 
-/**
- In feed, set scrollIntercept to Yes (defult NO);
- */
--(void)setInterceptScroll:(BOOL)scrollIntercept;
-
--(void)setProgressBarEnabled:(BOOL)progressBarEnabled;
 
 /**
  Resets the TaboolaView - All conents and pushed commands are cleared. new commands must be pushed before fetching data again.
@@ -228,5 +234,18 @@ typedef NS_ENUM(NSInteger, LogLevel) {
  After initializing the TaboolaView, this method should be called to actually fetch the recommendations
  */
 - (void)fetchContent;
+
+/*!
+ Show progress bar animation when scrolling in feed. Time in sec.
+ */
+-(void)startProgressBarAnimation;
+
+
+- (void)setAction:(NSNumber*)actionType data:(NSString*)data;
+
+- (void)updateAction:(NSNumber*)actionType data:(NSString*)data;
+
+- (void)setUnifiedId:(NSString*)unifiedId __attribute__((deprecated("Method is deprecated. Use 'setOptionalPageCommands:' instead")));
+
 
 @end
