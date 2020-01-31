@@ -32,5 +32,5 @@
 - (void)initThumbnailView:(TBImageView *)imageView completed:(void (^)(NSError *, UIImage *))completed;
 
 - (void)notifyVisibleEvent;
-
+- (void)handleClickEvent;
 @end

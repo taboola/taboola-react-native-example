@@ -15,7 +15,13 @@ typedef void(^TBRecommendationRequestSuccessCallback)(TBRecommendationResponse *
 typedef void(^TBRecommendationRequestFailureCallback)(NSError *error);
 
 @protocol TaboolaApiClickDelegate <NSObject>
+/** Implement one of the following functions.
+ No need to implement them both. */
+
+@optional
 - (BOOL)onItemClick:(NSString *)placementName withItemId:(NSString *)itemId withClickUrl:(NSString *)clickUrl isOrganic:(BOOL)organic;
+- (BOOL)onItemClick:(NSString *)placementName withItemId:(NSString *)itemId withClickUrl:(NSString *)clickUrl isOrganic:(BOOL)organic customData:(NSString *)customData;
+
 @end
 
 @interface TaboolaApi : NSObject

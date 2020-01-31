@@ -9,17 +9,17 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@taboola/react-native-taboola": "^1.1.1",
+		"@taboola/react-native-taboola": "^1.2.2",
 		"react": "16.8.3",
-		"react-native": "0.59.8",
-		"styled-components": "^4.2.0"
+		"react-native": "0.59.10",
+		"styled-components": "^4.4.1"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.4.5",
-		"@babel/runtime": "^7.4.5",
-		"babel-jest": "^24.8.0",
-		"jest": "^24.8.0",
-		"metro-react-native-babel-preset": "^0.54.1",
+		"@babel/core": "7.8.4",
+		"@babel/runtime": "7.8.4",
+		"babel-jest": "25.1.0",
+		"jest": "25.1.0",
+		"metro-react-native-babel-preset": "0.58.0",
 		"react-test-renderer": "16.8.3"
 	},
 	"jest": {
