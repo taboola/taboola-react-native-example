@@ -1,6 +1,6 @@
 # Taboola React-Native plugin (BETA)
 
-Latest plugin Version: 1.2.0 (25/10/2019)
+Latest plugin Version: 1.2.2 (31/01/2020)
 
 Taboola react-native plugin allows react-native publishers to display Taboola's Widgets and Feed within their apps
 
