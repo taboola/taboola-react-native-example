@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /** Sends events to server.
  * @param events - like MobileEvent.
  **/
-+(void)reportTaboolaMobileEvent:(NSArray *)events eventType:(MPEventType)eventType;
++(void)reportTaboolaMobileEvent:(NSDictionary *)events eventType:(TaboolaEventType)eventType;
 
 @end
 

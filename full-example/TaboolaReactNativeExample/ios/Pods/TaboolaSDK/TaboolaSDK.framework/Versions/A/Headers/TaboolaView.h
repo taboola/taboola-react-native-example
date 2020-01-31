@@ -21,7 +21,6 @@
  Attaches a delegate to the TaboolaView. Allows intercepting clicks.
  @param clickUrl string representation of URL click.
  @return YES if the view should begin loading content; otherwise, NO. Default value is YES
- 
  */
 
 - (BOOL)onItemClick:(NSString *)placementName withItemId:(NSString *)itemId withClickUrl:(NSString *)clickUrl isOrganic:(BOOL)organic;
@@ -37,7 +36,7 @@
 
 @optional
 /**
- Triggered after the taboolaView is succesfully rendered
+ Triggered after the TaboolaView is succesfully rendered.
  Use 'taboolaView: didLoadPlacementNamed: didLoadPlacementNamed: withHeight:' instead of this function, which will be deprecated in a future release.
  */
 - (void)taboolaView:(UIView*)taboolaView didLoadPlacementNamed:(NSString *) placementName withHeight:(CGFloat)height;
@@ -46,7 +45,7 @@
 
 @optional
 /**
- Triggered after the taboolaView fails to render
+ Triggered after the TaboolaView fails to render.
  Use 'taboolaView: didFailToLoadPlacementNamed: withErrorMessage:' instead of this function, which will be deprecated in a future release.
  */
 - (void)taboolaView:(UIView*) taboolaView didFailToLoadPlacementNamed:(NSString *) placementName withErrorMessage:(NSString *) error;
@@ -65,33 +64,33 @@
 - (void)taboolaViewResizeHandler __deprecated_msg("Method is deprecated. Use 'taboolaViewResizedToHeight' instead");
 
 /**
- Triggered when the taboolaView is scrolled to top.
+ Triggered when the TaboolaView is scrolled to top.
  */
 - (void)scrollViewDidScrollToTopTaboolaView:(UIView*)taboolaView;
 
 /**
- Triggered when clicked save For Later.
+ Triggered when clicked Save For Later.
  */
 - (void)clickedOnAction:(NSNumber*)actionType data:(NSDictionary*)data;
 
 @end
 
 /**
- TaboolaView represnents a single Taboola widget.
+ TaboolaView represents a single Taboola widget.
  */
 @interface TaboolaView : UIView
 /**
- Mandatory. Sets the publisher id
+ Mandatory. Sets the publisherId.
  */
 @property(nonatomic, strong) NSString *publisher;
 
-/*
+/**
  Mandatory. Sets the widget UI mode (template)
  */
 @property(nonatomic, strong) NSString *mode;
 
 /**
- Mandatory. Sets the widget placement code (for reporting /configuration purposes)
+ Mandatory. Sets the widget placement code (for reporting / configuration purposes)
  */
 @property(nonatomic, strong) NSString *placement;
 
@@ -102,24 +101,24 @@
 @property(nonatomic, strong) NSString *pageType;
 
 /**
- Mandatory. Sets the canonical URL for the page on which the widget is displayed
+ Mandatory. Sets the canonical URL for the page on which the widget is displayed.
  */
 @property(nonatomic, strong) NSString *pageUrl;
 
 /**
- Optional. Default: "current timestamp". Set the same viewID in different TaboolaView to eneable dedup.
+ Optional. Set the same viewID in different TaboolaView to eneable dedup (default is "current timestamp").
  */
 
 @property(nonatomic, strong) NSString *viewID;
 
 /**
- Optional. Default: "mix". Change only if it's specified by your Taboola account manager
+ Optional. Change only if it's specified by your Taboola account manager (default is "mix").
  */
 
 @property(nonatomic, strong) NSString *targetType;
 
 /**
- Optional. Sets the page id of the page on which the widget is displayed (default to auto generate from the URL)
+ Optional. Sets the pageId of the page on which the widget is displayed (default is to auto generate from URL).
  */
 @property(nonatomic, strong) NSString *pageId;
 
@@ -133,39 +132,42 @@
 @property(nonatomic, weak) id<TaboolaViewDelegate> delegate;
 
 /**
- Optional. controls whether the widget content is scrollable or not (enabled by default)
+ Optional. Controls whether the widget content is scrollable or not (default is enabled).
  */
 @property(nonatomic, readwrite) BOOL scrollEnable;
 
 /**
- Optional. the in-app browser will be pushed to thiw UIViewController
+ Optional. Controls whether to hide the scrollBar in Taboola views (default is NO).
+ */
+@property(nonatomic, readwrite) BOOL scrollBarHidden;
+
+/**
+ Optional. The in-app browser will be pushed to UIViewController.
  */
 @property(nonatomic, weak) UIViewController *ownerViewController;
 
 /**
- Optional. force legacy UIWebView
+ Optional. Force legacy UIWebView.
  */
-
 @property(nonatomic, readwrite) BOOL forceLegacyWebView;
 
 /**
- Optional. When enabled, TaboolaView automatically resizes its height after rendering the widget.
- Default YES.
+ Optional. When enabled, TaboolaView automatically resizes its height after rendering the widget (default is YES).
  */
 @property(nonatomic, readwrite) BOOL autoResizeHeight;
 
 /**
- Optional. Sets additional styling CSS rules for the widget, use it for controling the widget background, for example.
+ Optional. Sets additional styling CSS rules for the widget. Use it for controling the widget background, for example.
  */
 @property(nonatomic, strong) NSString *optionalWidgetStyle;
 
 /**
- Optional. controls whether item clicks sent to the delegate clickHandler or not. if not they will be opened in Safari (default YES);
+ Optional. Controls whether item clicks sent to the delegate clickHandler or not. if not they will be opened in Safari (default is YES).
  */
 @property(nonatomic, readwrite) BOOL enableClickHandler;
 
 /**
- Optional. Controls the ammount (level) of the console log messages by TaboolaSDK. LogLevel enum defines importance levels. Default: LogLevelError
+ Optional. Controls the ammount (level) of the console log messages by TaboolaSDK. LogLevel Enum defines importance levels (default is LogLevelError).
  */
 @property(nonatomic, readwrite) LogLevel logLevel;
 
@@ -175,30 +177,29 @@
 @property (nonatomic) NSString* mediation;
 
 /**
- Optional. Change the time out of loading widget in sec. The default is 10s.
+ Optional. Change the time out of loading widget in seconds (default is 10s).
  */
 @property (nonatomic) int timeOutOfLoading;
 
 /**
- Optional. use to override scrollIntercept.
+ Optional. Use to override scrollIntercept.
  */
 @property(nonatomic, readwrite) BOOL overrideScrollIntercept;
 
 /**
- In feed, set scrollIntercept to Yes (defult NO);
+ In feed, set scrollIntercept to YES (defult is NO).
  */
--(void)setInterceptScroll:(BOOL)scrollIntercept;
+- (void)setInterceptScroll:(BOOL)scrollIntercept;
 
 /**
- Show progressbar in scroll switch in feed
+ Show progress bar in scroll switch in feed.
  */
--(void)setProgressBarEnabled:(BOOL)progressBarEnabled;
+- (void)setProgressBarEnabled:(BOOL)progressBarEnabled;
 
-
-
-
-
-
+/**
+ Set using constraints for TaboolaView (instead of frame)
+*/
+- (void)setConstraintsOn:(BOOL)useConstraints;
 
 + (CGFloat) widgetHeight;
 
@@ -238,7 +239,7 @@
 /*!
  Show progress bar animation when scrolling in feed. Time in sec.
  */
--(void)startProgressBarAnimation;
+- (void)startProgressBarAnimation;
 
 
 - (void)setAction:(NSNumber*)actionType data:(NSString*)data;

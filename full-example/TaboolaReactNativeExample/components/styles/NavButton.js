@@ -3,11 +3,12 @@ import { Button } from 'react-native';
 import styled from 'styled-components';
 
 const NavButtonContainer = styled.View`
-	font-size: 20;
-	height: 50;
-	margin-top: 15;
-	padding-left: 10;
-	padding-right: 10;
+	font-size: 14;
+	height: 35;
+	margin-top: 3;
+	margin-bottom: 3;
+	padding-left: 12;
+	padding-right: 12;
 `;
 
 const NavButton = props => (

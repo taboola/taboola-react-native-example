@@ -16,10 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
  **/
 
 enum {
-    MPEventTypeDefault, // default type
-    MPEventTypeNewsroom
+    TaboolaEventTypeDefault, // default type
+    TaboolaEventTypeNewsroom
 };
-typedef NSInteger MPEventType;
+typedef NSInteger TaboolaEventType;
 
 
 @protocol TaboolaEvent <NSObject>
