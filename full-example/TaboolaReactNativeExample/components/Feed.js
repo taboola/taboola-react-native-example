@@ -16,6 +16,7 @@ const Feed = props => {
       pageType={props.pageType}
       pageUrl={props.pageUrl}
       placement={props.placement}
+      viewId={props.viewId}
       targetType={props.targetType}
       interceptScroll={true}
       style={{height, width: '100%'}}
@@ -24,7 +25,11 @@ const Feed = props => {
         // collapse the taboola view if content fails to load
         setHeight(0);
       }}
-      onOrganicItemClick={event => {}}
+      onOrganicItemClick={event => {
+				// implement logic for opening content in-app here
+				console.warn('Organic item was clicked!');
+				return true;
+			}}
       onAdItemClick={event => {}}
     />
   );
@@ -47,7 +52,7 @@ Feed.propTypes = {
   pageUrl: PropTypes.string.isRequired,
   placement: PropTypes.string.isRequired,
   targetType: PropTypes.string.isRequired,
-  viewID: PropTypes.string,
+  viewId: PropTypes.string,
 };
 
 export default Feed;

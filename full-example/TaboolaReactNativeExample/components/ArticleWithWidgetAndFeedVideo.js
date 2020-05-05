@@ -10,8 +10,8 @@ import paragraphs from '../static/paragraphs';
 
 class ArticleWithWidgetAndFeedVideo extends React.Component {
 	state = {
-		widgetLoaded: true,
-		viewID: new Date().getTime().toString(),
+		widgetLoaded: false,
+		viewId: new Date().getTime().toString(),
 	};
 
 	setWidgetLoaded() {
@@ -28,13 +28,13 @@ class ArticleWithWidgetAndFeedVideo extends React.Component {
 					<StyledText>{paragraphs[1]}</StyledText>
 					<StyledText>{paragraphs[2]}</StyledText>
 					<Widget
-						viewID={this.state.viewID}
+						viewId={this.state.viewId}
 						onDidLoad={e => this.setWidgetLoaded()}
 					/>
 					<StyledText>{paragraphs[1]}</StyledText>
 					{/* this tells the component to only render the Feed once the widget has been rendered.
-					    Doing this and passing both the widget and feed the same viewID will prevent duplication of ads */}
-					{this.state.widgetLoaded && <FeedVideo viewID={this.state.viewID} />}
+					    Doing this and passing both the widget and feed the same viewId will prevent duplication of ads */}
+					{this.state.widgetLoaded && <FeedVideo viewId={this.state.viewId} />}
 				</ScrollView>
 			</View>
 		);
