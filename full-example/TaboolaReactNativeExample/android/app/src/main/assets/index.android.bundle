@@ -89374,13 +89374,17 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
 
-  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "@taboola/react-native-taboola"));
+  var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
 
-  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "prop-types"));
+  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@taboola/react-native-taboola"));
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "prop-types"));
 
   var _jsxFileName = "/Users/mark.sauer.utley/Development/_sdk-examples/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Widget.js";
 
   var Widget = function Widget(props) {
+    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
+
     var _useState = (0, _react.useState)(0),
         _useState2 = (0, _slicedToArray2.default)(_useState, 2),
         height = _useState2[0],
@@ -89388,7 +89392,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
     return _react.default.createElement(_reactNativeTaboola.default, {
       mode: props.mode,
-      publisher: props.publisher,
+      publisher: publisher,
       pageType: props.pageType,
       pageUrl: props.pageUrl,
       placement: props.placement,
@@ -89401,7 +89405,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       },
       onDidLoad: function onDidLoad(event) {
         props.onDidLoad(event);
-        setHeight(parseInt(event.nativeEvent.height, 10));
+        setHeight(Number(event.nativeEvent.height));
       },
       onDidFailToLoad: function onDidFailToLoad(event) {
         props.onDidFailToLoad();
@@ -89413,7 +89417,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       onAdItemClick: function onAdItemClick(event) {},
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 14,
         columnNumber: 3
       }
     });
@@ -89421,7 +89425,6 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   Widget.defaultProps = {
     mode: 'alternating-widget-without-video-1-on-1',
-    publisher: 'sdk-tester',
     pageType: 'article',
     pageUrl: 'https://blog.taboola.com',
     placement: 'Mid Article',
@@ -89430,7 +89433,6 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   Widget.propTypes = {
     mode: _propTypes.default.string.isRequired,
-    publisher: _propTypes.default.string.isRequired,
     pageType: _propTypes.default.string.isRequired,
     pageUrl: _propTypes.default.string.isRequired,
     placement: _propTypes.default.string.isRequired,
@@ -89439,7 +89441,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = Widget;
   exports.default = _default;
-},429,[1,430,431,50,435,66],"components/Widget.js");
+},429,[1,430,431,50,2,435,66],"components/Widget.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _typeof = _$$_REQUIRE(_dependencyMap[0], "../helpers/typeof");
 
@@ -97202,6 +97204,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _jsxFileName = "/Users/mark.sauer.utley/Development/_sdk-examples/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Feed.js";
 
   var Feed = function Feed(props) {
+    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
     var feedHeight = _reactNative.Dimensions.get('window').height * 2;
 
     var _useState = (0, _react.useState)(feedHeight),
@@ -97212,7 +97215,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     return _react.default.createElement(_reactNativeTaboola.default, {
       viewID: props.viewID,
       mode: props.mode,
-      publisher: props.publisher,
+      publisher: publisher,
       pageType: props.pageType,
       pageUrl: props.pageUrl,
       placement: props.placement,
@@ -97234,7 +97237,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       onAdItemClick: function onAdItemClick(event) {},
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 17,
         columnNumber: 5
       }
     });
@@ -97242,7 +97245,6 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   Feed.defaultProps = {
     mode: 'thumbs-feed-01',
-    publisher: 'sdk-tester',
     pageType: 'article',
     pageUrl: 'https://blog.taboola.com',
     placement: 'Feed without video',
@@ -97250,7 +97252,6 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   Feed.propTypes = {
     mode: _propTypes.default.string.isRequired,
-    publisher: _propTypes.default.string.isRequired,
     pageType: _propTypes.default.string.isRequired,
     pageUrl: _propTypes.default.string.isRequired,
     placement: _propTypes.default.string.isRequired,
