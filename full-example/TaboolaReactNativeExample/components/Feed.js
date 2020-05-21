@@ -1,9 +1,14 @@
-import React, {useState} from 'react';
-import {Dimensions} from 'react-native';
+import React, { useState } from 'react';
+import { Dimensions, Platform } from 'react-native';
 import RNTaboolaView from '@taboola/react-native-taboola';
 import PropTypes from 'prop-types';
 
-const Feed = props => {
+const Feed = (props) => {
+  // Set the publisher according to the OS. 
+	// Taboola will provide a publisher id for android and one for ios.
+	// Here we are just using the test account for both.
+	const publisher = Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
+
   // Get the dimensions of the screen and set the feed height to twice the screen height
   const feedHeight = Dimensions.get('window').height * 2;
   const [height, setHeight] = useState(feedHeight);
@@ -12,7 +17,7 @@ const Feed = props => {
     <RNTaboolaView
       viewID={props.viewID}
       mode={props.mode}
-      publisher={props.publisher}
+      publisher={publisher}
       pageType={props.pageType}
       pageUrl={props.pageUrl}
       placement={props.placement}
@@ -36,9 +41,7 @@ const Feed = props => {
 };
 
 Feed.defaultProps = {
-  //mode: 'thumbnails-a',
   mode: 'thumbs-feed-01',
-  publisher: 'sdk-tester',
   pageType: 'article',
   pageUrl: 'https://blog.taboola.com',
   placement: 'Feed without video',
@@ -47,7 +50,6 @@ Feed.defaultProps = {
 
 Feed.propTypes = {
   mode: PropTypes.string.isRequired,
-  publisher: PropTypes.string.isRequired,
   pageType: PropTypes.string.isRequired,
   pageUrl: PropTypes.string.isRequired,
   placement: PropTypes.string.isRequired,
