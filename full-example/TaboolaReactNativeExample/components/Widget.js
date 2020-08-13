@@ -30,7 +30,7 @@ const Widget = props => {
           // This lets us implement other logic into this callback via props
           props.onDidLoad(event);
         // Set the height of the widget dynamically
-        setHeight(parseInt(event.nativeEvent.height, 10));
+          setHeight(Number(event.nativeEvent.height));
       }}
       onDidFailToLoad={event => {
         setHeight(0);

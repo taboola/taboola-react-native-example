@@ -13,7 +13,7 @@ const ArticleWithWidget = props => {
 		<View >
 			<BackButton onPress={e => props.back()} title="Back" />
 
-				<Header>Here's a Taboola Widget wow</Header>
+				<Header>Here's a Taboola Widget</Header>
 				<StyledText>{paragraphs[0]}</StyledText>
 				<StyledText>{paragraphs[1]}</StyledText>
 					<Widget />

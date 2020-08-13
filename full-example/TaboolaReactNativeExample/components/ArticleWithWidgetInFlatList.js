@@ -15,7 +15,7 @@ const ArticleWithWidgetInFlatList = props => {
 		<View>
 			<BackButton onPress={e => props.back()} title="Back" />
 
-				<Header>Here's a Taboola Widget</Header>
+				<Header>Here's a Taboola Widget in FlatList</Header>
 				<FlatList
 					style={{ flex: 1 }}
 					data={[{ key: 'p1' }, { key: 'p3' }, { key: 'p4' },  { key: 'taboola' },  { key: 'p2' } ]}
