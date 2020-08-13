@@ -4,12 +4,12 @@
 	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"android-linux": "react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle - assets-dest android/app/src/main/res && react-native run-android",
+		"android-mac": "react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle - assets-dest android/app/src/main/res && react-native run-android",
 		"ios": "react-native run-ios",
 		"test": "jest"
 	},
 	"dependencies": {
-		"@taboola/react-native-taboola": "^1.2.2",
+		"@taboola/react-native-taboola": "^2.0.0",
 		"react": "16.8.3",
 		"react-native": "0.59.10",
 		"styled-components": "^4.4.1"

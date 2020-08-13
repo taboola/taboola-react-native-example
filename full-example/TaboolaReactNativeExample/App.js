@@ -1,26 +1,29 @@
 import React from 'react';
-import { ScrollView,  Text } from 'react-native';
+import {NativeModules, ScrollView, Text} from 'react-native';
 import ArticleWithWidget from './components/ArticleWithWidget';
 import ArticleWithWidgetInFlatList from './components/ArticleWithWidgetInFlatList';
 import ArticleWithFeed from './components/ArticleWithFeed';
-import ArticleWithFeedVideo from './components/ArticleWithFeedVideo';
 import ArticleWithWidgetAndFeed from './components/ArticleWithWidgetAndFeed';
-import ArticleWithWidgetAndFeedVideo from './components/ArticleWithWidgetAndFeedVideo';
 import HomePage from './components/HomePage';
 import WidgetForm from './components/WidgetForm';
 import FeedForm from './components/FeedForm';
 import Container from './components/styles/Container';
-import OnlyFeed from './components/OnlyFeed';
-import OnlyFeedVideo from './components/OnlyFeedVideo';
+import ArticleWithFeedDark from "./components/ArticleWithFeedDark";
+import ArticleWithWidgetDark from "./components/ArticleWithWidgetDark";
+import ArticleWithWidgetAndFeedDark from "./components/ArticleWithWidgetAndFeedDark";
+import ArticleOC from "./components/ArticleOC";
 
 class App extends React.Component {
     state = {
         currentPage: 'home',
+        defReset: false,
     };
 
     back() {
-        this.setState({ currentPage: 'home' });
+        this.setState({ currentPage: 'home'});
+
     }
+
 
     setCurrentPage(currentPage) {
         this.setState({ currentPage });
@@ -30,20 +33,20 @@ class App extends React.Component {
         switch (this.state.currentPage) {
             case 'WidgetDemo':
                 return <ArticleWithWidget back={() => this.back()} />;
+            case 'WidgetDemoDark':
+                return <ArticleWithWidgetDark back={() => this.back()} />;
             case 'WidgetInFlatListDemo':
                 return <ArticleWithWidgetInFlatList back={() => this.back()} />;
-            case 'OnlyFeed':
-                return <OnlyFeed back={() => this.back()} />;
-            case 'OnlyFeedVideo':
-                return <OnlyFeedVideo back={() => this.back()} />;
             case 'FeedDemo':
                 return <ArticleWithFeed back={() => this.back()} />;
-            case 'FeedDemoVideo':
-                return <ArticleWithFeedVideo back={() => this.back()} />;
+            case 'FeedDark':
+                return <ArticleWithFeedDark back={() => this.back()} />;
             case 'WidgetAndFeedDemo':
                 return <ArticleWithWidgetAndFeed back={() => this.back()} />;
-            case 'WidgetAndFeedDemoVideo':
-                return <ArticleWithWidgetAndFeedVideo back={() => this.back()} />;
+            case 'WidgetAndFeedDemoDark':
+                return <ArticleWithWidgetAndFeedDark back={() => this.back()} />;
+            case 'ArticleOC':
+                return <ArticleOC back={() => this.back()}   />;
             case 'TestWidget':
                 return <WidgetForm back={() => this.back()} />;
             case 'TestFeed':
@@ -57,8 +60,8 @@ class App extends React.Component {
         return (
             <Container>
                 <ScrollView>
-                    <Text style={{paddingTop:15, textAlign: 'center', fontSize: 10 }}>Taboola SDK-2.3.8 iOS / 2.3.7 Android;  </Text>
-                    <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}> Taboola React Native Plugin  - 1.2.2; </Text>
+                    <Text style={{paddingTop:15, textAlign: 'center', fontSize: 10 }}>Taboola SDK-2.7.1 iOS / 2.7.0 Android;  </Text>
+                    <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}> Taboola React Native Plugin  - 2.0.0; </Text>
                     <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}>React Native version 0.59.10; </Text>
                     {this.renderSwitch()}
                 </ScrollView>

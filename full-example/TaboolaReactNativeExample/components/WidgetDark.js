@@ -1,21 +1,16 @@
 import React, {useState} from 'react';
-import { Platform } from 'react-native';
 import PropTypes from 'prop-types';
 
 import RNTaboolaView from '@taboola/react-native-taboola';
 
-const Widget = props => {
-    // Set the publisher according to the OS.
-    // Taboola will provide a publisher id for android and one for ios.
-    // Here we are just using the test account for both.
-    const publisher = Platform.OS === 'ios' ? 'sdk-tester-demo' : 'sdk-tester-demo';
-
+const WidgetDark = props => {
   const [height, setHeight] = useState(0);
 
   return (
     <RNTaboolaView
+      darkMode={true}
       mode={props.mode}
-      publisher={publisher}
+      publisher={props.publisher}
       pageType={props.pageType}
       pageUrl={props.pageUrl}
       placement={props.placement}
@@ -35,25 +30,25 @@ const Widget = props => {
       onDidFailToLoad={event => {
         setHeight(0);
       }}
-      onItemClick={event => {}}
+        onItemClick={event => {}}
     />
   );
 };
 
-Widget.defaultProps = {
-  mode: 'alternating-widget-without-video-1x4',
+WidgetDark.defaultProps = {
+  mode: 'alternating-widget-1x2',
   publisher: 'sdk-tester-demo',
   pageType: 'article',
   pageUrl: 'https://blog.taboola.com',
   placement: 'Mid Article',
   targetType: 'mix',
+  //viewID: '12345',
   viewID: new Date().getTime().toString(),
   setBackgroundColor: '',
     onDidLoad: () => {},
-
 };
 
-Widget.propTypes = {
+WidgetDark.propTypes = {
   mode: PropTypes.string.isRequired,
   publisher: PropTypes.string.isRequired,
   pageType: PropTypes.string.isRequired,
@@ -62,7 +57,6 @@ Widget.propTypes = {
   targetType: PropTypes.string.isRequired,
   viewID: PropTypes.string,
     setBackgroundColor: PropTypes.string,
-
 };
 
-export default Widget;
+export default WidgetDark;
