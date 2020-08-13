@@ -42,7 +42,6 @@ WidgetDark.defaultProps = {
   pageUrl: 'https://blog.taboola.com',
   placement: 'Mid Article',
   targetType: 'mix',
-  //viewID: '12345',
   viewID: new Date().getTime().toString(),
   setBackgroundColor: '',
     onDidLoad: () => {},

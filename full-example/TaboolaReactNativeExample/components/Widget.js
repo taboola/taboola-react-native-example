@@ -42,7 +42,6 @@ const Widget = props => {
 
 Widget.defaultProps = {
   mode: 'alternating-widget-without-video-1x4',
-  publisher: 'sdk-tester-demo',
   pageType: 'article',
   pageUrl: 'https://blog.taboola.com',
   placement: 'Mid Article',
@@ -55,7 +54,6 @@ Widget.defaultProps = {
 
 Widget.propTypes = {
   mode: PropTypes.string.isRequired,
-  publisher: PropTypes.string.isRequired,
   pageType: PropTypes.string.isRequired,
   pageUrl: PropTypes.string.isRequired,
   placement: PropTypes.string.isRequired,

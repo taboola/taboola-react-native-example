@@ -50,7 +50,6 @@ FeedDark.defaultProps = {
 
 FeedDark.propTypes = {
 	mode: PropTypes.string.isRequired,
-	publisher: PropTypes.string.isRequired,
 	pageType: PropTypes.string.isRequired,
 	pageUrl: PropTypes.string.isRequired,
 	placement: PropTypes.string.isRequired,
