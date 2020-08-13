@@ -31,7 +31,6 @@ const FeedVideo = props => {
 };
 
 FeedVideo.defaultProps = {
-  //mode: 'thumbnails-a',
   mode: 'thumbs-feed-01',
   publisher: 'sdk-tester',
   pageType: 'article',

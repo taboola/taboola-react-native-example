@@ -6,14 +6,13 @@ target 'TaboolaReactNativeExample' do
   use_frameworks!
 
   # Pods for TaboolaReactNativeExample
-  pod 'TaboolaSDK', '2.3.8'
+  pod 'TaboolaSDK', '2.7.1'
 
   # target 'TaboolaReactNativeExample-tvOSTests' do
   #   inherit! :search_paths
   #   # Pods for testing
   # end
 
-  pod 'RNTaboola', :path => '../node_modules/@taboola/react-native-taboola'
 
   target 'TaboolaReactNativeExampleTests' do
     inherit! :search_paths

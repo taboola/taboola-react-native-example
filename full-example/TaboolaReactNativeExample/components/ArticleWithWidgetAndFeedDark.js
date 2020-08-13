@@ -1,14 +1,14 @@
 import React from 'react';
 import {View } from 'react-native';
 import PropTypes from 'prop-types';
-import Widget from './Widget';
-import Feed from './Feed';
 import BackButton from './styles/BackButton';
 import StyledText from './styles/StyledText';
 import Header from './styles/Header';
 import paragraphs from '../static/paragraphs';
+import FeedDark from "./FeedDark";
+import WidgetDark from "./WidgetDark";
 
-class ArticleWithWidgetAndFeed extends React.Component {
+class ArticleWithWidgetAndFeedDark extends React.Component {
   state = {
     widgetLoaded: true,
     viewID: new Date().getTime().toString(),
@@ -24,20 +24,22 @@ class ArticleWithWidgetAndFeed extends React.Component {
         <BackButton onPress={e => this.props.back()} title="Back" />
           <Header>Here's a Taboola Widget and Feed</Header>
           <StyledText>{paragraphs[1]}</StyledText>
-          <Widget
+          <WidgetDark
             viewID={this.state.viewID}
             onDidLoad={e => this.setWidgetLoaded()}
-
           />
+
           <StyledText>{paragraphs[1]}</StyledText>
           {/* this tells the component to only render the Feed once the widget has been rendered.
 					    Doing this and passing both the widget and feed the same viewID will prevent duplication of ads */}
-          {this.state.widgetLoaded && <Feed viewID={this.state.viewID} />}
+          {this.state.widgetLoaded && <FeedDark viewID={this.state.viewID} />}
+
+
       </View>
     );
   }
 }
 
-ArticleWithWidgetAndFeed.propTypes = {back: PropTypes.func.isRequired};
+ArticleWithWidgetAndFeedDark.propTypes = {back: PropTypes.func.isRequired};
 
-export default ArticleWithWidgetAndFeed;
+export default ArticleWithWidgetAndFeedDark;
