@@ -30,6 +30,7 @@ build/
 local.properties
 *.iml
 
+test-app
 # node.js
 #
 node_modules/
