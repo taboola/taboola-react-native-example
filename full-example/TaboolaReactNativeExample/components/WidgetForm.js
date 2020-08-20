@@ -16,7 +16,9 @@ const initialWidgetParams = {
   pageType: 'article',
   targetType: 'mix',
   setBackgroundColor: '',
-
+	extraProperties: {
+		cex: '',
+	},
 };
 
 class WidgetForm extends Component {

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -41,9 +42,9 @@
 		8B70C9F895E12F1C4E7279C0 /* Pods_TaboolaReactNativeExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2855B43AA96657A6D0C8AA4C /* Pods_TaboolaReactNativeExampleTests.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C334189B8639C9A0F81B4710 /* Pods_TaboolaReactNativeExample_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009D6C7588627BBB3ECE53F7 /* Pods_TaboolaReactNativeExample_tvOSTests.framework */; };
+		D3D385968F2B443FA98BE5DC /* libRNTaboola.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC175489960746A3B97745E6 /* libRNTaboola.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		D3D385968F2B443FA98BE5DC /* libRNTaboola.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC175489960746A3B97745E6 /* libRNTaboola.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,10 +362,10 @@
 		B53423382854AE9C5C743ABC /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOS/Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C4DB8D63003E478853EABCA9 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExampleTests/Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64EF54163C9E5A8252859C5 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOSTests/Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2075694C2BA45329AD190DC /* RNTaboola.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNTaboola.xcodeproj; path = "../node_modules/@taboola/react-native-taboola/ios/RNTaboola.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		E2075694C2BA45329AD190DC /* RNTaboola.xcodeproj */ = {isa = PBXFileReference; name = "RNTaboola.xcodeproj"; path = "../node_modules/@taboola/react-native-taboola/ios/RNTaboola.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		FC175489960746A3B97745E6 /* libRNTaboola.a */ = {isa = PBXFileReference; name = "libRNTaboola.a"; path = "libRNTaboola.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		FC175489960746A3B97745E6 /* libRNTaboola.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libRNTaboola.a; path = libRNTaboola.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -688,6 +689,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				41568A6AFB956EE30ACD2D4A /* [CP] Copy Pods Resources */,
+				32E8794BBA5AD1FA9E89A13D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1178,6 +1180,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		32E8794BBA5AD1FA9E89A13D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaboolaReactNativeExample/Pods-TaboolaReactNativeExample-frameworks.sh",
+				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaboolaSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaboolaReactNativeExample/Pods-TaboolaReactNativeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		41568A6AFB956EE30ACD2D4A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1185,11 +1205,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TaboolaReactNativeExample/Pods-TaboolaReactNativeExample-resources.sh",
-				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TaboolaSDK/TaboolaSDKResource.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaboolaVIewResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TaboolaSDKResource.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
