@@ -60,8 +60,8 @@ class App extends React.Component {
         return (
             <Container>
                 <ScrollView>
-                    <Text style={{paddingTop:15, textAlign: 'center', fontSize: 10 }}>Taboola SDK-2.7.1 iOS / 2.7.0 Android;  </Text>
-                    <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}> Taboola React Native Plugin  - 2.0.0; </Text>
+                    <Text style={{paddingTop:15, textAlign: 'center', fontSize: 10 }}>Taboola SDK-2.8.1 iOS / 2.8.1 Android;  </Text>
+                    <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}> Taboola React Native Plugin  - 2.1.0; </Text>
                     <Text style={{paddingTop:10, textAlign: 'center', fontSize: 10 }}>React Native version 0.59.10; </Text>
                     {this.renderSwitch()}
                 </ScrollView>

@@ -9,31 +9,41 @@
 /* Begin PBXAggregateTarget section */
 		7F6415DE1BA4E1F2CF2767393A451475 /* TaboolaSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B654D8ACA2AEE273A671C82D0727EF05 /* Build configuration list for PBXAggregateTarget "TaboolaSDK" */;
+			buildConfigurationList = 95C14D70C28A84D53ACDF7B9748C5C2F /* Build configuration list for PBXAggregateTarget "TaboolaSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
+				3CD5E297EFFEAD4E190FF5D98A9C3EF5 /* PBXTargetDependency */,
 			);
 			name = TaboolaSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		099B9DB225A471E77156886F408594E7 /* Pods-TaboolaReactNativeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD7DF17FC3BE9531CE2536D91BEF3D /* Pods-TaboolaReactNativeExample-dummy.m */; };
-		2F010652799835E2772DD4C7F54B3ED5 /* Pods-TaboolaReactNativeExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 066FA6F1178F89CD9F8016C3CB0449FE /* Pods-TaboolaReactNativeExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3234017130A2BE938D4278B53618E35C /* Pods-TaboolaReactNativeExample-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994DFDB49B53B0E1D30EFEDBF3360726 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */; };
+		099B9DB225A471E77156886F408594E7 /* Pods-TaboolaReactNativeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A8CB594B09FDF6C480AC9FC5E21D14 /* Pods-TaboolaReactNativeExample-dummy.m */; };
+		2F010652799835E2772DD4C7F54B3ED5 /* Pods-TaboolaReactNativeExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C34AE2D542F5936EEE81C23447D7D87 /* Pods-TaboolaReactNativeExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3234017130A2BE938D4278B53618E35C /* Pods-TaboolaReactNativeExample-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C894F2E5078DCD9A56A663AD678732 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */; };
 		348602245E41FA563EAD4A74FA866D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
-		358B02F71C7E5C91A60E7A0A36557461 /* Pods-TaboolaReactNativeExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB686CE68736267AE1321172ABB75B2D /* Pods-TaboolaReactNativeExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358B02F71C7E5C91A60E7A0A36557461 /* Pods-TaboolaReactNativeExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A68D3D8F7F5B0246DE8C7D25411B6B1 /* Pods-TaboolaReactNativeExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E42A963478C700B11B542917760F4EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
-		53A57A665F97A14F87A46C0569CB4A77 /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B925C4E2A922A4683D591C13FBE4E43B /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */; };
-		65DFA23F12852F00AB2AE1C4FE7B9481 /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD5ABC2931A5FC8BE4078E3D35A94AC /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A57A665F97A14F87A46C0569CB4A77 /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4555CBB44B6963F721CF3CD64D6A57A /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */; };
+		65DFA23F12852F00AB2AE1C4FE7B9481 /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8249C3B84C005A6FA03CB45845A4F026 /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BBA1858FFC562FD18B90A3B97D09780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		70F116045C23D049600991CBBD9CD0AB /* TaboolaSDKResource-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 599D1AEE7FD9E7709C946AA0E3FB89F6 /* TaboolaSDKResource-Info.plist */; };
 		8354B5B82378BCAA92629AABFF905EFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
-		D6255A3F810D2CBC2F9A6E3E80DE59F2 /* Pods-TaboolaReactNativeExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D56DC1D07720A9B4F4FF59ED08A5B39 /* Pods-TaboolaReactNativeExampleTests-dummy.m */; };
-		F476D0CF0A40C99F22DE95695CD9B5A8 /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 108384A1E5AD83D69F46B373EB08F50D /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6255A3F810D2CBC2F9A6E3E80DE59F2 /* Pods-TaboolaReactNativeExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB4ED091FB03C5412885D7EE1711F5F /* Pods-TaboolaReactNativeExampleTests-dummy.m */; };
+		E2E0A8BFB179D3DE5FA32F0A42B71BAF /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = D0F44C9C08FDA908CF77F86DD548BECD /* template.html */; };
+		F476D0CF0A40C99F22DE95695CD9B5A8 /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4CB491DDFB1B31E455D9C0507B0EF3 /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		240FD451BCC0844BDBFD8396B103C02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60D3090E91A4BECA18C495F3EC8D4D3;
+			remoteInfo = "TaboolaSDK-TaboolaSDKResource";
+		};
 		6DE3FA7C0B260D2000B70A2604C96207 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -58,65 +68,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066FA6F1178F89CD9F8016C3CB0449FE /* Pods-TaboolaReactNativeExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-umbrella.h"; sourceTree = "<group>"; };
-		071C2C1BF47A07E52F61E6946BBEF432 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		08229C18C07FAEA9372F5567EC6A55AD /* Taboola.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Taboola.h; path = TaboolaSDK.framework/Versions/A/Headers/Taboola.h; sourceTree = "<group>"; };
-		0D8D5ACD12F9883A35B46D96601678D3 /* TBTitleLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBTitleLabel.h; path = TaboolaSDK.framework/Versions/A/Headers/TBTitleLabel.h; sourceTree = "<group>"; };
-		0EF9AB47713701E44AE23D7DDBC70CB5 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0FC7B8518EC0833E477FD1DA026780E8 /* TBBrandingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBBrandingLabel.h; path = TaboolaSDK.framework/Versions/A/Headers/TBBrandingLabel.h; sourceTree = "<group>"; };
-		108384A1E5AD83D69F46B373EB08F50D /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		12BC1D61F5AC06F249369B04C66892F5 /* TaboolaJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaboolaJS.h; path = TaboolaSDK.framework/Versions/A/Headers/TaboolaJS.h; sourceTree = "<group>"; };
+		098272931B27A1DFBEF85F8124DE0AF2 /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C34AE2D542F5936EEE81C23447D7D87 /* Pods-TaboolaReactNativeExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-umbrella.h"; sourceTree = "<group>"; };
 		1D0E7F3BE5D57FAD3FD1CE3A51795BD5 /* Pods_TaboolaReactNativeExample_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TaboolaReactNativeExample_tvOSTests.framework; path = "Pods-TaboolaReactNativeExample-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D56DC1D07720A9B4F4FF59ED08A5B39 /* Pods-TaboolaReactNativeExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExampleTests-dummy.m"; sourceTree = "<group>"; };
-		1E86CA10C58229DC256413038414F4F5 /* Pods-TaboolaReactNativeExample-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample-tvOS.modulemap"; sourceTree = "<group>"; };
-		244DC7076330489DE0F4D142B608C815 /* TaboolaEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaboolaEvent.h; path = TaboolaSDK.framework/Versions/A/Headers/TaboolaEvent.h; sourceTree = "<group>"; };
-		35AD7DF17FC3BE9531CE2536D91BEF3D /* Pods-TaboolaReactNativeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-dummy.m"; sourceTree = "<group>"; };
-		3C519E2CA1E79816A15399CF7D840B86 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CD5ABC2931A5FC8BE4078E3D35A94AC /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
-		3E764AC7D8C0C14D6BD8A6D0DE3A3DE5 /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		4B632F1614AFE956444F50C8C4930FBC /* Pods-TaboolaReactNativeExample-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		1D7382C4CAE4ADEC30ED29F3F1C6B9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F2923FEDBE4C122473AD8F7C3F68BAD /* Pods-TaboolaReactNativeExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExampleTests.modulemap"; sourceTree = "<group>"; };
+		376EE8E0C2D97F8C2DE7C60009A5D8FC /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A68D3D8F7F5B0246DE8C7D25411B6B1 /* Pods-TaboolaReactNativeExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		42C08A38EA4C0581C1F8FD4A8801A73B /* Pods-TaboolaReactNativeExample-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOSTests-Info.plist"; sourceTree = "<group>"; };
 		4E746B42F04EF8556B14AF3E0597AA04 /* Pods_TaboolaReactNativeExample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TaboolaReactNativeExample_tvOS.framework; path = "Pods-TaboolaReactNativeExample-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5306C9E0859D316C6DAC5E1C538F9395 /* Pods-TaboolaReactNativeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5496128DA6AABCD7FEAE408B4E13B0D7 /* Pods-TaboolaReactNativeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		551E9571B8983CEA22BC4721FB6CA9D7 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56D4497FFC0EDE19AA540ED43BAE804E /* Pods-TaboolaReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
 		56DD5A5B48BAFE799152E8E5B8402BEA /* Pods_TaboolaReactNativeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TaboolaReactNativeExample.framework; path = "Pods-TaboolaReactNativeExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D3C5041EBC21B91264741DAF811652 /* Pods-TaboolaReactNativeExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExampleTests.modulemap"; sourceTree = "<group>"; };
-		5A8C006B1B90EAEEC28A3E8281B1811A /* TBPlacementRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBPlacementRequest.h; path = TaboolaSDK.framework/Versions/A/Headers/TBPlacementRequest.h; sourceTree = "<group>"; };
-		5CBEC5FC5DB9340778509FCDEA780438 /* Pods-TaboolaReactNativeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E219FAD3B66DB72A09A63A1394C3F4E /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6436BA1FB261AF547532785229C9AF64 /* TaboolaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaboolaView.h; path = TaboolaSDK.framework/Versions/A/Headers/TaboolaView.h; sourceTree = "<group>"; };
-		6866BFF5BFA70E5011402D5B78DEDDE3 /* TBRecommendationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBRecommendationRequest.h; path = TaboolaSDK.framework/Versions/A/Headers/TBRecommendationRequest.h; sourceTree = "<group>"; };
-		687D562E16DDB817F6B8E5BCF932D185 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6B47E7AF800C2F47F57250B857D9ADCB /* TBImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBImageView.h; path = TaboolaSDK.framework/Versions/A/Headers/TBImageView.h; sourceTree = "<group>"; };
-		6E21FBAFE3203EA22E394D2C0E7255EF /* TaboolaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TaboolaSDK.framework; sourceTree = "<group>"; };
+		576DA9A9E73F09EE1B72D6A3669AF01E /* TaboolaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaboolaSDK.release.xcconfig; sourceTree = "<group>"; };
+		599D1AEE7FD9E7709C946AA0E3FB89F6 /* TaboolaSDKResource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "TaboolaSDKResource-Info.plist"; path = "TaboolaSDK.framework/TaboolaSDKResource.bundle/TaboolaSDKResource-Info.plist"; sourceTree = "<group>"; };
+		59E8979AF1C0B0CCE859FC03B5C1BEE0 /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D03F1FA797AC0AAE505F82F4A450E05 /* Pods-TaboolaReactNativeExample-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOS-Info.plist"; sourceTree = "<group>"; };
+		5E4CB491DDFB1B31E455D9C0507B0EF3 /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		606F61D29F6E652D2A4CB362646B4FBB /* TaboolaSDKResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TaboolaSDKResource.bundle; path = "TaboolaSDK-TaboolaSDKResource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		608E431CBBFD1EE2FFD93B87C2B30645 /* Pods-TaboolaReactNativeExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample.modulemap"; sourceTree = "<group>"; };
+		681196F7DA15396232CF01AE79C9AB55 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		68AAE255E54A9B392CE4A48C7187FDF0 /* Pods-TaboolaReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6E225F90AD6790A2F4C1D9D919BE8756 /* TaboolaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TaboolaSDK.framework; sourceTree = "<group>"; };
 		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		819ABE3C65A718FE354A267B757B833A /* Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		83D43422492234EAD53F319EDC66ED70 /* TBRecommendationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBRecommendationResponse.h; path = TaboolaSDK.framework/Versions/A/Headers/TBRecommendationResponse.h; sourceTree = "<group>"; };
-		84779452ACCE7F228F5A9B3A16DD2887 /* TaboolaApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaboolaApi.h; path = TaboolaSDK.framework/Versions/A/Headers/TaboolaApi.h; sourceTree = "<group>"; };
-		937AE499C721AE19960C299B7C9C8B5E /* Pods-TaboolaReactNativeExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9788CB98D92B3E50A5B7C953B85F7336 /* TBLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBLoggerLevel.h; path = TaboolaSDK.framework/Versions/A/Headers/TBLoggerLevel.h; sourceTree = "<group>"; };
-		98888D2A0BBC00BE9E00CB82AC5D57DD /* Pods-TaboolaReactNativeExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExampleTests-Info.plist"; sourceTree = "<group>"; };
-		994DFDB49B53B0E1D30EFEDBF3360726 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-tvOS-dummy.m"; sourceTree = "<group>"; };
+		8249C3B84C005A6FA03CB45845A4F026 /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		8F81AEC8EBA76916F98FE290D7E9187E /* ResourceBundle-TaboolaSDKResource-TaboolaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TaboolaSDKResource-TaboolaSDK-Info.plist"; sourceTree = "<group>"; };
+		92D9BFAB8AA70A24371A01BB8BAEC4A3 /* Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CFE79C1EA207E03EAB8C93D29C6D6D0 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A244FE8C7FF7070C5060B0C16580E9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A30CA578D5E37C76DBFD6531448FFA59 /* Pods-TaboolaReactNativeExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample.modulemap"; sourceTree = "<group>"; };
-		A4F0243E5DCCCE382108807696C08854 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A4F26EF236C638EAE583ADBCC0170B4B /* PublisherInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublisherInfo.h; path = TaboolaSDK.framework/Versions/A/Headers/PublisherInfo.h; sourceTree = "<group>"; };
-		AA93E3492C9241BA6AC59D09B0EBA188 /* Pods-TaboolaReactNativeExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaboolaReactNativeExample-resources.sh"; sourceTree = "<group>"; };
-		ABC5E3CC6D2BC95170BF18E27901DB50 /* TBPlacement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBPlacement.h; path = TaboolaSDK.framework/Versions/A/Headers/TBPlacement.h; sourceTree = "<group>"; };
-		B563D8E9BFEA0FD973CCBC3F231BDFD0 /* Pods-TaboolaReactNativeExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-Info.plist"; sourceTree = "<group>"; };
+		AF5091C9E4E49DD8E816523085DB1A84 /* Pods-TaboolaReactNativeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3A8CB594B09FDF6C480AC9FC5E21D14 /* Pods-TaboolaReactNativeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-dummy.m"; sourceTree = "<group>"; };
 		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B925C4E2A922A4683D591C13FBE4E43B /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-tvOSTests-dummy.m"; sourceTree = "<group>"; };
 		BB732FD4203000F02A6CE3DA028CC899 /* Pods_TaboolaReactNativeExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TaboolaReactNativeExampleTests.framework; path = "Pods-TaboolaReactNativeExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB49459B92739617F64DA073AEBBBA7 /* TaboolaSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaboolaSDK.xcconfig; sourceTree = "<group>"; };
-		D4E132A9D9465476F50EF36602CC9F13 /* TaboolaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaboolaSDK.h; path = TaboolaSDK.framework/Versions/A/Headers/TaboolaSDK.h; sourceTree = "<group>"; };
-		DB686CE68736267AE1321172ABB75B2D /* Pods-TaboolaReactNativeExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaboolaReactNativeExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		DEA53764F5FE7FE76690A595ABF14162 /* TaboolaVIewResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TaboolaVIewResources.bundle; path = TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle; sourceTree = "<group>"; };
-		E00099085EFF99C601EEC476347BE83B /* Pods-TaboolaReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
-		E11260CD2415361AB72EE0CD795C286F /* Pods-TaboolaReactNativeExample-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOSTests-Info.plist"; sourceTree = "<group>"; };
-		E78857745FAD3F1C9EEE17E89BFFAF90 /* Pods-TaboolaReactNativeExample-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOS-Info.plist"; sourceTree = "<group>"; };
-		EA25C466F3CCA8E189E9F92034BEB9BC /* Pods-TaboolaReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
-		EF900416066BBB28468B8EE51E4F4BE9 /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F2B9D5AC11191D4E71F252BBF9B5AF35 /* TBDescriptionLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBDescriptionLabel.h; path = TaboolaSDK.framework/Versions/A/Headers/TBDescriptionLabel.h; sourceTree = "<group>"; };
-		FEB9FDE4B030A015BE02D555192938BC /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC7D7EEECD0DEC42664FEADABDF87A7C /* Pods-TaboolaReactNativeExample-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		C4555CBB44B6963F721CF3CD64D6A57A /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C626E50D384AB5BB67CAD473E29ED4D5 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C7C894F2E5078DCD9A56A663AD678732 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExample-tvOS-dummy.m"; sourceTree = "<group>"; };
+		C7ECF2CC8BC9DC7E835BB64E40932F39 /* Pods-TaboolaReactNativeExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExampleTests-Info.plist"; sourceTree = "<group>"; };
+		D0F44C9C08FDA908CF77F86DD548BECD /* template.html */ = {isa = PBXFileReference; includeInIndex = 1; name = template.html; path = TaboolaSDK.framework/TaboolaSDKResource.bundle/template.html; sourceTree = "<group>"; };
+		DCB4ED091FB03C5412885D7EE1711F5F /* Pods-TaboolaReactNativeExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaboolaReactNativeExampleTests-dummy.m"; sourceTree = "<group>"; };
+		DE3D23D7F523B7D029CCC9465A598331 /* Pods-TaboolaReactNativeExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF3D7C147BDC9D1F8BD615482E66A1C4 /* Pods-TaboolaReactNativeExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaboolaReactNativeExample-frameworks.sh"; sourceTree = "<group>"; };
+		E1E9D8ADA458A95322E54A27E969FE7F /* Pods-TaboolaReactNativeExample-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaboolaReactNativeExample-tvOS.modulemap"; sourceTree = "<group>"; };
+		E60649DBE920D38D0B60B31B1C434171 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8E626CFF9AFE7983EF77B860D871CCB /* Pods-TaboolaReactNativeExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaboolaReactNativeExample-Info.plist"; sourceTree = "<group>"; };
+		EAADAFF3811BFED932FE8864326DD5FF /* Pods-TaboolaReactNativeExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaboolaReactNativeExample-resources.sh"; sourceTree = "<group>"; };
+		EE15F0BE73CBC7B26DB965D15FDFF2AC /* TaboolaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaboolaSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F11819BFE8934323815D99A6F747C0DB /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaboolaReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +132,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E42A963478C700B11B542917760F4EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5EA8B89085E19A59B07E60B6D8FC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,75 +161,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00ED9AA2CDA672BFD66E8A910A97A10F /* Support Files */ = {
+		0EEB7E28B236CA2F420BEF5511B3CB7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CBB49459B92739617F64DA073AEBBBA7 /* TaboolaSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TaboolaSDK";
-			sourceTree = "<group>";
-		};
-		077B54261FF005EA8B9BC5203797DB5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				56DD5A5B48BAFE799152E8E5B8402BEA /* Pods_TaboolaReactNativeExample.framework */,
-				4E746B42F04EF8556B14AF3E0597AA04 /* Pods_TaboolaReactNativeExample_tvOS.framework */,
-				1D0E7F3BE5D57FAD3FD1CE3A51795BD5 /* Pods_TaboolaReactNativeExample_tvOSTests.framework */,
-				BB732FD4203000F02A6CE3DA028CC899 /* Pods_TaboolaReactNativeExampleTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1E0BC64D50ED6DA1B1B5814682184B8A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DEA53764F5FE7FE76690A595ABF14162 /* TaboolaVIewResources.bundle */,
+				599D1AEE7FD9E7709C946AA0E3FB89F6 /* TaboolaSDKResource-Info.plist */,
+				D0F44C9C08FDA908CF77F86DD548BECD /* template.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5604286DD217785EF68548584544B0F9 /* Pods-TaboolaReactNativeExampleTests */ = {
+		2C04D02EBC79C993F754EF6D451E25A2 /* TaboolaSDK */ = {
 			isa = PBXGroup;
 			children = (
-				57D3C5041EBC21B91264741DAF811652 /* Pods-TaboolaReactNativeExampleTests.modulemap */,
-				819ABE3C65A718FE354A267B757B833A /* Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown */,
-				937AE499C721AE19960C299B7C9C8B5E /* Pods-TaboolaReactNativeExampleTests-acknowledgements.plist */,
-				1D56DC1D07720A9B4F4FF59ED08A5B39 /* Pods-TaboolaReactNativeExampleTests-dummy.m */,
-				98888D2A0BBC00BE9E00CB82AC5D57DD /* Pods-TaboolaReactNativeExampleTests-Info.plist */,
-				DB686CE68736267AE1321172ABB75B2D /* Pods-TaboolaReactNativeExampleTests-umbrella.h */,
-				0EF9AB47713701E44AE23D7DDBC70CB5 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */,
-				3E764AC7D8C0C14D6BD8A6D0DE3A3DE5 /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */,
-			);
-			name = "Pods-TaboolaReactNativeExampleTests";
-			path = "Target Support Files/Pods-TaboolaReactNativeExampleTests";
-			sourceTree = "<group>";
-		};
-		5FFFA0404033C59870FEAE5A5716B4DA /* TaboolaSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A4F26EF236C638EAE583ADBCC0170B4B /* PublisherInfo.h */,
-				08229C18C07FAEA9372F5567EC6A55AD /* Taboola.h */,
-				84779452ACCE7F228F5A9B3A16DD2887 /* TaboolaApi.h */,
-				244DC7076330489DE0F4D142B608C815 /* TaboolaEvent.h */,
-				12BC1D61F5AC06F249369B04C66892F5 /* TaboolaJS.h */,
-				D4E132A9D9465476F50EF36602CC9F13 /* TaboolaSDK.h */,
-				6436BA1FB261AF547532785229C9AF64 /* TaboolaView.h */,
-				0FC7B8518EC0833E477FD1DA026780E8 /* TBBrandingLabel.h */,
-				F2B9D5AC11191D4E71F252BBF9B5AF35 /* TBDescriptionLabel.h */,
-				6B47E7AF800C2F47F57250B857D9ADCB /* TBImageView.h */,
-				9788CB98D92B3E50A5B7C953B85F7336 /* TBLoggerLevel.h */,
-				ABC5E3CC6D2BC95170BF18E27901DB50 /* TBPlacement.h */,
-				5A8C006B1B90EAEEC28A3E8281B1811A /* TBPlacementRequest.h */,
-				6866BFF5BFA70E5011402D5B78DEDDE3 /* TBRecommendationRequest.h */,
-				83D43422492234EAD53F319EDC66ED70 /* TBRecommendationResponse.h */,
-				0D8D5ACD12F9883A35B46D96601678D3 /* TBTitleLabel.h */,
-				E62033BCEBA3F8E4FF47764F9DA03715 /* Frameworks */,
-				1E0BC64D50ED6DA1B1B5814682184B8A /* Resources */,
-				00ED9AA2CDA672BFD66E8A910A97A10F /* Support Files */,
+				4EF6862990ECB464819A2B7BFE7FCF77 /* Frameworks */,
+				0EEB7E28B236CA2F420BEF5511B3CB7F /* Resources */,
+				BF7DE8CEF9D3AAACA3205EC2AB040B1D /* Support Files */,
 			);
 			name = TaboolaSDK;
 			path = TaboolaSDK;
+			sourceTree = "<group>";
+		};
+		2F7B63457874F19442784FB0CA61F6D1 /* Pods-TaboolaReactNativeExample-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D7EEECD0DEC42664FEADABDF87A7C /* Pods-TaboolaReactNativeExample-tvOSTests.modulemap */,
+				E60649DBE920D38D0B60B31B1C434171 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown */,
+				551E9571B8983CEA22BC4721FB6CA9D7 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist */,
+				C4555CBB44B6963F721CF3CD64D6A57A /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */,
+				42C08A38EA4C0581C1F8FD4A8801A73B /* Pods-TaboolaReactNativeExample-tvOSTests-Info.plist */,
+				8249C3B84C005A6FA03CB45845A4F026 /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */,
+				376EE8E0C2D97F8C2DE7C60009A5D8FC /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */,
+				1D7382C4CAE4ADEC30ED29F3F1C6B9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-TaboolaReactNativeExample-tvOSTests";
+			path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOSTests";
+			sourceTree = "<group>";
+		};
+		39B4615D674DCACFC66C38B4DBF0B7B9 /* Pods-TaboolaReactNativeExample-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9D8ADA458A95322E54A27E969FE7F /* Pods-TaboolaReactNativeExample-tvOS.modulemap */,
+				098272931B27A1DFBEF85F8124DE0AF2 /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown */,
+				59E8979AF1C0B0CCE859FC03B5C1BEE0 /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist */,
+				C7C894F2E5078DCD9A56A663AD678732 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */,
+				5D03F1FA797AC0AAE505F82F4A450E05 /* Pods-TaboolaReactNativeExample-tvOS-Info.plist */,
+				5E4CB491DDFB1B31E455D9C0507B0EF3 /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */,
+				681196F7DA15396232CF01AE79C9AB55 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */,
+				C626E50D384AB5BB67CAD473E29ED4D5 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */,
+			);
+			name = "Pods-TaboolaReactNativeExample-tvOS";
+			path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOS";
+			sourceTree = "<group>";
+		};
+		4EF6862990ECB464819A2B7BFE7FCF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E225F90AD6790A2F4C1D9D919BE8756 /* TaboolaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54023671B491DD9D50F7C7A5D4D3A3F9 /* Pods-TaboolaReactNativeExample */ = {
+			isa = PBXGroup;
+			children = (
+				608E431CBBFD1EE2FFD93B87C2B30645 /* Pods-TaboolaReactNativeExample.modulemap */,
+				5496128DA6AABCD7FEAE408B4E13B0D7 /* Pods-TaboolaReactNativeExample-acknowledgements.markdown */,
+				AF5091C9E4E49DD8E816523085DB1A84 /* Pods-TaboolaReactNativeExample-acknowledgements.plist */,
+				B3A8CB594B09FDF6C480AC9FC5E21D14 /* Pods-TaboolaReactNativeExample-dummy.m */,
+				DF3D7C147BDC9D1F8BD615482E66A1C4 /* Pods-TaboolaReactNativeExample-frameworks.sh */,
+				E8E626CFF9AFE7983EF77B860D871CCB /* Pods-TaboolaReactNativeExample-Info.plist */,
+				EAADAFF3811BFED932FE8864326DD5FF /* Pods-TaboolaReactNativeExample-resources.sh */,
+				1C34AE2D542F5936EEE81C23447D7D87 /* Pods-TaboolaReactNativeExample-umbrella.h */,
+				68AAE255E54A9B392CE4A48C7187FDF0 /* Pods-TaboolaReactNativeExample.debug.xcconfig */,
+				56D4497FFC0EDE19AA540ED43BAE804E /* Pods-TaboolaReactNativeExample.release.xcconfig */,
+			);
+			name = "Pods-TaboolaReactNativeExample";
+			path = "Target Support Files/Pods-TaboolaReactNativeExample";
+			sourceTree = "<group>";
+		};
+		66F409DD9B47E3827EDD921CFC1F306B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54023671B491DD9D50F7C7A5D4D3A3F9 /* Pods-TaboolaReactNativeExample */,
+				39B4615D674DCACFC66C38B4DBF0B7B9 /* Pods-TaboolaReactNativeExample-tvOS */,
+				2F7B63457874F19442784FB0CA61F6D1 /* Pods-TaboolaReactNativeExample-tvOSTests */,
+				6CA9BE2C8B6CA2F6B3A0F7E9DB040D8E /* Pods-TaboolaReactNativeExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CA9BE2C8B6CA2F6B3A0F7E9DB040D8E /* Pods-TaboolaReactNativeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2923FEDBE4C122473AD8F7C3F68BAD /* Pods-TaboolaReactNativeExampleTests.modulemap */,
+				92D9BFAB8AA70A24371A01BB8BAEC4A3 /* Pods-TaboolaReactNativeExampleTests-acknowledgements.markdown */,
+				DE3D23D7F523B7D029CCC9465A598331 /* Pods-TaboolaReactNativeExampleTests-acknowledgements.plist */,
+				DCB4ED091FB03C5412885D7EE1711F5F /* Pods-TaboolaReactNativeExampleTests-dummy.m */,
+				C7ECF2CC8BC9DC7E835BB64E40932F39 /* Pods-TaboolaReactNativeExampleTests-Info.plist */,
+				3A68D3D8F7F5B0246DE8C7D25411B6B1 /* Pods-TaboolaReactNativeExampleTests-umbrella.h */,
+				9CFE79C1EA207E03EAB8C93D29C6D6D0 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */,
+				F11819BFE8934323815D99A6F747C0DB /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */,
+			);
+			name = "Pods-TaboolaReactNativeExampleTests";
+			path = "Target Support Files/Pods-TaboolaReactNativeExampleTests";
 			sourceTree = "<group>";
 		};
 		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
@@ -243,21 +283,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		90E85E0C83C805965609DC8C1DACAD0D /* Pods-TaboolaReactNativeExample */ = {
+		899306DA7DEBD52C53F63048DA96C23D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A30CA578D5E37C76DBFD6531448FFA59 /* Pods-TaboolaReactNativeExample.modulemap */,
-				5306C9E0859D316C6DAC5E1C538F9395 /* Pods-TaboolaReactNativeExample-acknowledgements.markdown */,
-				5CBEC5FC5DB9340778509FCDEA780438 /* Pods-TaboolaReactNativeExample-acknowledgements.plist */,
-				35AD7DF17FC3BE9531CE2536D91BEF3D /* Pods-TaboolaReactNativeExample-dummy.m */,
-				B563D8E9BFEA0FD973CCBC3F231BDFD0 /* Pods-TaboolaReactNativeExample-Info.plist */,
-				AA93E3492C9241BA6AC59D09B0EBA188 /* Pods-TaboolaReactNativeExample-resources.sh */,
-				066FA6F1178F89CD9F8016C3CB0449FE /* Pods-TaboolaReactNativeExample-umbrella.h */,
-				EA25C466F3CCA8E189E9F92034BEB9BC /* Pods-TaboolaReactNativeExample.debug.xcconfig */,
-				E00099085EFF99C601EEC476347BE83B /* Pods-TaboolaReactNativeExample.release.xcconfig */,
+				56DD5A5B48BAFE799152E8E5B8402BEA /* Pods_TaboolaReactNativeExample.framework */,
+				4E746B42F04EF8556B14AF3E0597AA04 /* Pods_TaboolaReactNativeExample_tvOS.framework */,
+				1D0E7F3BE5D57FAD3FD1CE3A51795BD5 /* Pods_TaboolaReactNativeExample_tvOSTests.framework */,
+				BB732FD4203000F02A6CE3DA028CC899 /* Pods_TaboolaReactNativeExampleTests.framework */,
+				606F61D29F6E652D2A4CB362646B4FBB /* TaboolaSDKResource.bundle */,
 			);
-			name = "Pods-TaboolaReactNativeExample";
-			path = "Target Support Files/Pods-TaboolaReactNativeExample";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
@@ -268,28 +303,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A1D7EB430CFE24408C44D41F49B79D81 /* Pods */ = {
+		AD10A5473C56887ECC46B2289677EA39 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5FFFA0404033C59870FEAE5A5716B4DA /* TaboolaSDK */,
+				2C04D02EBC79C993F754EF6D451E25A2 /* TaboolaSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AB5B2011F2CD09A7C69EFDC419AA280C /* Pods-TaboolaReactNativeExample-tvOSTests */ = {
+		BF7DE8CEF9D3AAACA3205EC2AB040B1D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B632F1614AFE956444F50C8C4930FBC /* Pods-TaboolaReactNativeExample-tvOSTests.modulemap */,
-				3C519E2CA1E79816A15399CF7D840B86 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.markdown */,
-				071C2C1BF47A07E52F61E6946BBEF432 /* Pods-TaboolaReactNativeExample-tvOSTests-acknowledgements.plist */,
-				B925C4E2A922A4683D591C13FBE4E43B /* Pods-TaboolaReactNativeExample-tvOSTests-dummy.m */,
-				E11260CD2415361AB72EE0CD795C286F /* Pods-TaboolaReactNativeExample-tvOSTests-Info.plist */,
-				3CD5ABC2931A5FC8BE4078E3D35A94AC /* Pods-TaboolaReactNativeExample-tvOSTests-umbrella.h */,
-				EF900416066BBB28468B8EE51E4F4BE9 /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */,
-				A244FE8C7FF7070C5060B0C16580E9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */,
+				8F81AEC8EBA76916F98FE290D7E9187E /* ResourceBundle-TaboolaSDKResource-TaboolaSDK-Info.plist */,
+				EE15F0BE73CBC7B26DB965D15FDFF2AC /* TaboolaSDK.debug.xcconfig */,
+				576DA9A9E73F09EE1B72D6A3669AF01E /* TaboolaSDK.release.xcconfig */,
 			);
-			name = "Pods-TaboolaReactNativeExample-tvOSTests";
-			path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOSTests";
+			name = "Support Files";
+			path = "../Target Support Files/TaboolaSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -297,45 +327,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
-				A1D7EB430CFE24408C44D41F49B79D81 /* Pods */,
-				077B54261FF005EA8B9BC5203797DB5A /* Products */,
-				F4DA9392D16A12F2B8908D02C464E233 /* Targets Support Files */,
+				AD10A5473C56887ECC46B2289677EA39 /* Pods */,
+				899306DA7DEBD52C53F63048DA96C23D /* Products */,
+				66F409DD9B47E3827EDD921CFC1F306B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E62033BCEBA3F8E4FF47764F9DA03715 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6E21FBAFE3203EA22E394D2C0E7255EF /* TaboolaSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E8820704A027CC3E437F79B53B62964E /* Pods-TaboolaReactNativeExample-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				1E86CA10C58229DC256413038414F4F5 /* Pods-TaboolaReactNativeExample-tvOS.modulemap */,
-				5E219FAD3B66DB72A09A63A1394C3F4E /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.markdown */,
-				FEB9FDE4B030A015BE02D555192938BC /* Pods-TaboolaReactNativeExample-tvOS-acknowledgements.plist */,
-				994DFDB49B53B0E1D30EFEDBF3360726 /* Pods-TaboolaReactNativeExample-tvOS-dummy.m */,
-				E78857745FAD3F1C9EEE17E89BFFAF90 /* Pods-TaboolaReactNativeExample-tvOS-Info.plist */,
-				108384A1E5AD83D69F46B373EB08F50D /* Pods-TaboolaReactNativeExample-tvOS-umbrella.h */,
-				687D562E16DDB817F6B8E5BCF932D185 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */,
-				A4F0243E5DCCCE382108807696C08854 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */,
-			);
-			name = "Pods-TaboolaReactNativeExample-tvOS";
-			path = "Target Support Files/Pods-TaboolaReactNativeExample-tvOS";
-			sourceTree = "<group>";
-		};
-		F4DA9392D16A12F2B8908D02C464E233 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				90E85E0C83C805965609DC8C1DACAD0D /* Pods-TaboolaReactNativeExample */,
-				E8820704A027CC3E437F79B53B62964E /* Pods-TaboolaReactNativeExample-tvOS */,
-				AB5B2011F2CD09A7C69EFDC419AA280C /* Pods-TaboolaReactNativeExample-tvOSTests */,
-				5604286DD217785EF68548584544B0F9 /* Pods-TaboolaReactNativeExampleTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,6 +427,23 @@
 			productReference = 4E746B42F04EF8556B14AF3E0597AA04 /* Pods_TaboolaReactNativeExample_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D60D3090E91A4BECA18C495F3EC8D4D3 /* TaboolaSDK-TaboolaSDKResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536C905A67420204A7AC5530A2593CF7 /* Build configuration list for PBXNativeTarget "TaboolaSDK-TaboolaSDKResource" */;
+			buildPhases = (
+				EF734C6688E0730767D0E5D839F29A19 /* Sources */,
+				DD5EA8B89085E19A59B07E60B6D8FC99 /* Frameworks */,
+				6C4325E78C934F89CA018A4FFE6A8BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TaboolaSDK-TaboolaSDKResource";
+			productName = "TaboolaSDK-TaboolaSDKResource";
+			productReference = 606F61D29F6E652D2A4CB362646B4FBB /* TaboolaSDKResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		FA5FCC3DDED93E2E94BF253D087DEA66 /* Pods-TaboolaReactNativeExample-tvOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1691B25CDF8DB50858D1718300C0F94 /* Build configuration list for PBXNativeTarget "Pods-TaboolaReactNativeExample-tvOSTests" */;
@@ -469,7 +481,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 077B54261FF005EA8B9BC5203797DB5A /* Products */;
+			productRefGroup = 899306DA7DEBD52C53F63048DA96C23D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -478,6 +490,7 @@
 				FA5FCC3DDED93E2E94BF253D087DEA66 /* Pods-TaboolaReactNativeExample-tvOSTests */,
 				2A80918525FC30E5679A01F5C86E962F /* Pods-TaboolaReactNativeExampleTests */,
 				7F6415DE1BA4E1F2CF2767393A451475 /* TaboolaSDK */,
+				D60D3090E91A4BECA18C495F3EC8D4D3 /* TaboolaSDK-TaboolaSDKResource */,
 			);
 		};
 /* End PBXProject section */
@@ -494,6 +507,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4325E78C934F89CA018A4FFE6A8BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F116045C23D049600991CBBD9CD0AB /* TaboolaSDKResource-Info.plist in Resources */,
+				E2E0A8BFB179D3DE5FA32F0A42B71BAF /* template.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,9 +568,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF734C6688E0730767D0E5D839F29A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3CD5E297EFFEAD4E190FF5D98A9C3EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TaboolaSDK-TaboolaSDKResource";
+			target = D60D3090E91A4BECA18C495F3EC8D4D3 /* TaboolaSDK-TaboolaSDKResource */;
+			targetProxy = 240FD451BCC0844BDBFD8396B103C02D /* PBXContainerItemProxy */;
+		};
 		41FE8A352A551C7BB7C121806653A9E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TaboolaSDK;
@@ -572,7 +607,7 @@
 /* Begin XCBuildConfiguration section */
 		1CBDF3FF5B7D71D515757AA34F871730 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E00099085EFF99C601EEC476347BE83B /* Pods-TaboolaReactNativeExample.release.xcconfig */;
+			baseConfigurationReference = 56D4497FFC0EDE19AA540ED43BAE804E /* Pods-TaboolaReactNativeExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -604,9 +639,26 @@
 			};
 			name = Release;
 		};
+		2704F2DABF64114D723E464AB2AD288B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE15F0BE73CBC7B26DB965D15FDFF2AC /* TaboolaSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TaboolaSDK";
+				IBSC_MODULE = TaboolaSDK;
+				INFOPLIST_FILE = "Target Support Files/TaboolaSDK/ResourceBundle-TaboolaSDKResource-TaboolaSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TaboolaSDKResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		62D197707A85F8EE1D1E59803DB7B6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA25C466F3CCA8E189E9F92034BEB9BC /* Pods-TaboolaReactNativeExample.debug.xcconfig */;
+			baseConfigurationReference = 68AAE255E54A9B392CE4A48C7187FDF0 /* Pods-TaboolaReactNativeExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -636,20 +688,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		65C6404D66ACC43D08AD2847E5ED928E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB49459B92739617F64DA073AEBBBA7 /* TaboolaSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,7 +752,7 @@
 		};
 		7004AF8C0A4840389A9D69BA750862F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A244FE8C7FF7070C5060B0C16580E9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 1D7382C4CAE4ADEC30ED29F3F1C6B9C3 /* Pods-TaboolaReactNativeExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -748,7 +786,7 @@
 		};
 		79392B806EAE9E347CCEA65CE6D4D3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF9AB47713701E44AE23D7DDBC70CB5 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 9CFE79C1EA207E03EAB8C93D29C6D6D0 /* Pods-TaboolaReactNativeExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -779,22 +817,9 @@
 			};
 			name = Debug;
 		};
-		7C34741C08FB971B7E1ABFBCF1025A60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB49459B92739617F64DA073AEBBBA7 /* TaboolaSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		A5808757E13718C236E26C5FDC6193EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4F0243E5DCCCE382108807696C08854 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */;
+			baseConfigurationReference = C626E50D384AB5BB67CAD473E29ED4D5 /* Pods-TaboolaReactNativeExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -828,7 +853,7 @@
 		};
 		AEBAC70B7AE8F25A51B58590F3A224D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E764AC7D8C0C14D6BD8A6D0DE3A3DE5 /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */;
+			baseConfigurationReference = F11819BFE8934323815D99A6F747C0DB /* Pods-TaboolaReactNativeExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -860,9 +885,26 @@
 			};
 			name = Release;
 		};
+		D84000E0C2860D2F011444C62AA4FDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576DA9A9E73F09EE1B72D6A3669AF01E /* TaboolaSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TaboolaSDK";
+				IBSC_MODULE = TaboolaSDK;
+				INFOPLIST_FILE = "Target Support Files/TaboolaSDK/ResourceBundle-TaboolaSDKResource-TaboolaSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TaboolaSDKResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		DA280345C298299B5B69310D8418985B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687D562E16DDB817F6B8E5BCF932D185 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 681196F7DA15396232CF01AE79C9AB55 /* Pods-TaboolaReactNativeExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -960,7 +1002,7 @@
 		};
 		F0A700C725DD3ACE24C5CF12023DF02B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF900416066BBB28468B8EE51E4F4BE9 /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 376EE8E0C2D97F8C2DE7C60009A5D8FC /* Pods-TaboolaReactNativeExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -991,6 +1033,33 @@
 			};
 			name = Debug;
 		};
+		F785E2359711BEF0485B45348732EC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576DA9A9E73F09EE1B72D6A3669AF01E /* TaboolaSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB81935945F31F30018FA046348F0F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE15F0BE73CBC7B26DB965D15FDFF2AC /* TaboolaSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1012,20 +1081,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		536C905A67420204A7AC5530A2593CF7 /* Build configuration list for PBXNativeTarget "TaboolaSDK-TaboolaSDKResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2704F2DABF64114D723E464AB2AD288B /* Debug */,
+				D84000E0C2860D2F011444C62AA4FDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C14D70C28A84D53ACDF7B9748C5C2F /* Build configuration list for PBXAggregateTarget "TaboolaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB81935945F31F30018FA046348F0F98 /* Debug */,
+				F785E2359711BEF0485B45348732EC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1691B25CDF8DB50858D1718300C0F94 /* Build configuration list for PBXNativeTarget "Pods-TaboolaReactNativeExample-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0A700C725DD3ACE24C5CF12023DF02B /* Debug */,
 				7004AF8C0A4840389A9D69BA750862F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B654D8ACA2AEE273A671C82D0727EF05 /* Build configuration list for PBXAggregateTarget "TaboolaSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C34741C08FB971B7E1ABFBCF1025A60 /* Debug */,
-				65C6404D66ACC43D08AD2847E5ED928E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
