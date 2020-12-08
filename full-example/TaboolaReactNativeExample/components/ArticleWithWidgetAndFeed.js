@@ -10,7 +10,7 @@ import paragraphs from '../static/paragraphs';
 
 class ArticleWithWidgetAndFeed extends React.Component {
   state = {
-    widgetLoaded: true,
+    widgetLoaded: false,
     viewID: new Date().getTime().toString(),
   };
 

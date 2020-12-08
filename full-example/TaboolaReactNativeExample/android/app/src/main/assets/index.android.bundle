@@ -3658,7 +3658,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectWithoutProperties = _$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/objectWithoutProperties");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ActivityIndicator/ActivityIndicator.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -8408,7 +8408,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/View/View.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/View/View.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -44465,7 +44465,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ProgressBarAndroid/ProgressBarAndroid.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ProgressBarAndroid/ProgressBarAndroid.android.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -44510,7 +44510,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ART/ReactNativeART.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ART/ReactNativeART.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -46120,7 +46120,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Button.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Button.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -46288,7 +46288,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Text/Text.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Text/Text.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -46727,7 +46727,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/Touchable.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -48396,7 +48396,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/TouchableOpacity.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -52925,7 +52925,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Animated/src/createAnimatedComponent.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -53137,7 +53137,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/FlatList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/FlatList.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -53461,7 +53461,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/VirtualizedList.js";
 
   function _createForOfIteratorHelperLoose(o) { var i = 0; if (typeof Symbol === "undefined" || o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) return function () { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }; throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } i = o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"](); return i.next.bind(i); }
 
@@ -55351,7 +55351,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/RefreshControl/RefreshControl.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -55520,7 +55520,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ScrollView/ScrollView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -56490,7 +56490,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ScrollView/ScrollViewStickyHeader.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -57108,7 +57108,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/Image.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/Image.android.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -57433,7 +57433,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/SectionList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/SectionList.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -57565,7 +57565,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/VirtualizedSectionList.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -58051,7 +58051,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/CheckBox/CheckBox.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/CheckBox/CheckBox.android.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -58210,7 +58210,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/DatePicker/DatePickerIOS.android.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -58294,7 +58294,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -58817,7 +58817,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/ImageBackground.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/ImageBackground.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -59021,7 +59021,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/TextInput/InputAccessoryView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -59108,7 +59108,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Keyboard/KeyboardAvoidingView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -59324,7 +59324,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Lists/ListView/ListView.js";
 
   var InternalListViewType = _$$_REQUIRE(_dependencyMap[2], "InternalListViewType");
 
@@ -60272,7 +60272,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/UnimplementedViews/UnimplementedView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -60339,7 +60339,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Modal/Modal.js",
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Modal/Modal.js",
       _container;
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
@@ -60534,7 +60534,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/AppContainer.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -60720,7 +60720,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/Inspector.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/Inspector.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -61062,7 +61062,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/InspectorOverlay.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -61182,7 +61182,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/ElementBox.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/ElementBox.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -61351,7 +61351,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/BorderBox.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/BorderBox.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -61525,7 +61525,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/InspectorPanel.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -61783,7 +61783,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/ElementProperties.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -62007,7 +62007,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/BoxInspector.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -62220,7 +62220,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/StyleInspector.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -62334,7 +62334,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -62605,7 +62605,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/NetworkOverlay.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -63598,7 +63598,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Inspector/PerformanceOverlay.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -63709,7 +63709,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/YellowBox.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/YellowBox.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -63920,7 +63920,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxList.js";
 
   function _createForOfIteratorHelperLoose(o) { var i = 0; if (typeof Symbol === "undefined" || o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) return function () { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }; throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } i = o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"](); return i.next.bind(i); }
 
@@ -64152,7 +64152,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/SafeAreaView/SafeAreaView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -64244,7 +64244,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxButton.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxButton.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -64306,7 +64306,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxPressable.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -64426,7 +64426,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspector.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -64704,7 +64704,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _toConsumableArray = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/toConsumableArray");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/Data/YellowBoxCategory.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/Data/YellowBoxCategory.js";
 
   function _createForOfIteratorHelperLoose(o) { var i = 0; if (typeof Symbol === "undefined" || o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) return function () { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }; throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } i = o[typeof Symbol === "function" ? Symbol.iterator : "@@iterator"](); return i.next.bind(i); }
 
@@ -64855,7 +64855,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorFooter.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorFooter.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -64971,7 +64971,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorHeader.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorHeader.js";
 
   var Image = _$$_REQUIRE(_dependencyMap[0], "Image");
 
@@ -65155,7 +65155,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorSourceMapStatus.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -65342,7 +65342,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorStackFrame.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxInspectorStackFrame.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -65430,7 +65430,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/YellowBox/UI/YellowBoxListRow.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -65922,7 +65922,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Picker/Picker.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Picker/Picker.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -66030,7 +66030,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Picker/PickerAndroid.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Picker/PickerAndroid.android.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -66184,7 +66184,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ProgressViewIOS/ProgressViewIOS.android.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -66264,7 +66264,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[4], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/SegmentedControlIOS/SegmentedControlIOS.android.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -66338,7 +66338,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectWithoutProperties = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectWithoutProperties");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Slider/Slider.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Slider/Slider.js";
 
   var Platform = _$$_REQUIRE(_dependencyMap[2], "Platform");
 
@@ -66444,7 +66444,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Switch/Switch.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/Switch/Switch.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -66637,7 +66637,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableFlatList.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -66808,7 +66808,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableRow.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -67372,7 +67372,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Experimental/SwipeableRow/SwipeableListView.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -67655,7 +67655,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _defineProperty = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/defineProperty");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/TextInput/TextInput.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
@@ -68716,7 +68716,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ToolbarAndroid/ToolbarAndroid.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ToolbarAndroid/ToolbarAndroid.android.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -68863,7 +68863,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[7], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ViewPager/ViewPagerAndroid.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/ViewPager/ViewPagerAndroid.android.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -69020,7 +69020,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _getPrototypeOf = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/getPrototypeOf");
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/WebView/WebView.android.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Components/WebView/WebView.android.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -69734,7 +69734,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _PerformanceLogger = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "PerformanceLogger"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/renderApplication.js";
 
   var AppContainer = _$$_REQUIRE(_dependencyMap[3], "AppContainer");
 
@@ -69798,7 +69798,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/ReactFabricIndicator.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/ReactNative/ReactFabricIndicator.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -89035,7 +89035,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ArticleOC = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[19], "./components/ArticleOC"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/App.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/App.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 
@@ -89242,7 +89242,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             lineNumber: 63,
             columnNumber: 21
           }
-        }, "Taboola SDK-2.8.1 iOS / 2.8.1 Android;  "), _react.default.createElement(_reactNative.Text, {
+        }, "Taboola SDK-2.8.2 iOS / 2.8.1 Android;  "), _react.default.createElement(_reactNative.Text, {
           style: {
             paddingTop: 10,
             textAlign: 'center',
@@ -89253,7 +89253,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             lineNumber: 64,
             columnNumber: 21
           }
-        }, " Taboola React Native Plugin  - 2.1.0; "), _react.default.createElement(_reactNative.Text, {
+        }, " Taboola React Native Plugin  - 2.1.1; "), _react.default.createElement(_reactNative.Text, {
           style: {
             paddingTop: 10,
             textAlign: 'center',
@@ -89297,7 +89297,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidget.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidget.js";
 
   var ArticleWithWidget = function ArticleWithWidget(props) {
     return _react.default.createElement(_reactNative.View, {
@@ -89375,7 +89375,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Widget.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Widget.js";
 
   var Widget = function Widget(props) {
     var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester-demo' : 'sdk-tester-demo';
@@ -89578,7 +89578,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _package = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "../../../package.json"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/@taboola/react-native-taboola/index.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/@taboola/react-native-taboola/index.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 
@@ -89675,7 +89675,7 @@ __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
 		"test": "jest"
 	},
 	"dependencies": {
-		"@taboola/react-native-taboola": "^2.1.0",
+		"@taboola/react-native-taboola": "^2.1.1",
 		"react": "16.8.3",
 		"react-native": "0.59.10",
 		"styled-components": "^4.4.1"
@@ -89712,7 +89712,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _styledComponents = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "styled-components"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/BackButton.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/BackButton.js";
 
   function _templateObject() {
     var data = (0, _taggedTemplateLiteralLoose2.default)(["\n\tmargin-top: 10;\n\tmargin-bottom: 10;\n\twidth: 100;\n"]);
@@ -97097,7 +97097,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetInFlatList.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetInFlatList.js";
 
   var ArticleWithWidgetInFlatList = function ArticleWithWidgetInFlatList(props) {
     var p1 = _react.default.createElement(_StyledText.default, {
@@ -97222,7 +97222,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithFeed.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithFeed.js";
 
   var ArticleWithFeed = function ArticleWithFeed(props) {
     return _react.default.createElement(_reactNative.View, {
@@ -97294,10 +97294,10 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Feed.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Feed.js";
 
   var Feed = function Feed(props) {
-    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
+    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester-demo' : 'sdk-tester-demo';
     var feedHeight = _reactNative.Dimensions.get('window').height * 2;
 
     var _useState = (0, _react.useState)(feedHeight),
@@ -97395,7 +97395,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[14], "../static/paragraphs"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeed.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeed.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 
@@ -97417,7 +97417,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
       _this = _super.call.apply(_super, [this].concat(args));
       _this.state = {
-        widgetLoaded: true,
+        widgetLoaded: false,
         viewID: new Date().getTime().toString()
       };
       return _this;
@@ -97526,7 +97526,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _NavButton = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./styles/NavButton"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/HomePage.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/HomePage.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 
@@ -97683,7 +97683,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _taboolaLogo = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "../assets/taboola-logo.png"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/TaboolaLogo.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/TaboolaLogo.js";
 
   function _templateObject() {
     var data = (0, _taggedTemplateLiteralLoose2.default)(["\n\tjustify-content: center;\n\talign-self: center;\n"]);
@@ -97712,7 +97712,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   exports.default = _default;
 },464,[1,438,50,439,465],"components/TaboolaLogo.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  module.exports = _$$_REQUIRE(_dependencyMap[0], "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/AssetRegistry").registerAsset({
+  module.exports = _$$_REQUIRE(_dependencyMap[0], "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/AssetRegistry").registerAsset({
     "__packager_asset": true,
     "httpServerLocation": "/assets/assets",
     "width": 200,
@@ -97741,7 +97741,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _styledComponents = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "styled-components"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/NavButton.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/NavButton.js";
 
   function _templateObject() {
     var data = (0, _taggedTemplateLiteralLoose2.default)(["\n\tfont-size: 14;\n\theight: 35;\n\tmargin-top: 3;\n\tmargin-bottom: 3;\n\tpadding-left: 12;\n\tpadding-right: 12;\n"]);
@@ -97816,7 +97816,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[17], "./styles/Header"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetForm.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetForm.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -98096,7 +98096,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _StyledTextInput = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "./styles/StyledTextInput"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/CustomTextInput.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/CustomTextInput.js";
 
   var CustomTextInput = function CustomTextInput(props) {
     return _react.default.createElement(_StyledTextInput.default, (0, _extends2.default)({
@@ -98131,7 +98131,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _styledComponents = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "styled-components"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/StyledTextInput.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/StyledTextInput.js";
 
   function _templateObject() {
     var data = (0, _taggedTemplateLiteralLoose2.default)(["\n\tborder-bottom-width: 1;\n\tborder-bottom-color: lightgrey;\n"]);
@@ -98213,7 +98213,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _styledComponents = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "styled-components"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/SubmitButton.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/styles/SubmitButton.js";
 
   function _templateObject2() {
     var data = (0, _taggedTemplateLiteralLoose2.default)(["\n\twidth: 150;\n\tborder-color: ", ";\n\tborder-width: 1;\n\tborder-radius: 5;\n"]);
@@ -98315,7 +98315,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[17], "./styles/Header"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/FeedForm.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/FeedForm.js";
 
   function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -98654,7 +98654,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _FeedDark = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./FeedDark"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithFeedDark.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithFeedDark.js";
 
   var ArticleWithFeedDark = function ArticleWithFeedDark(props) {
     return _react.default.createElement(_reactNative.View, {
@@ -98726,7 +98726,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/FeedDark.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/FeedDark.js";
 
   var FeedDark = function FeedDark(props) {
     var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester-demo' : 'sdk-tester-demo';
@@ -98809,7 +98809,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _WidgetDark = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./WidgetDark"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetDark.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetDark.js";
 
   var ArticleWithWidgetDark = function ArticleWithWidgetDark(props) {
     return _react.default.createElement(_reactNative.View, {
@@ -98885,7 +98885,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@taboola/react-native-taboola"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetDark.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetDark.js";
 
   var WidgetDark = function WidgetDark(props) {
     var _useState = (0, _react.useState)(0),
@@ -98983,7 +98983,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _WidgetDark = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[14], "./WidgetDark"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeedDark.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetAndFeedDark.js";
 
   function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 
@@ -99005,7 +99005,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
       _this = _super.call.apply(_super, [this].concat(args));
       _this.state = {
-        widgetLoaded: true,
+        widgetLoaded: false,
         viewID: new Date().getTime().toString()
       };
       return _this;
@@ -99114,7 +99114,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "@taboola/react-native-taboola"));
 
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/git_2020_test/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleOC.js";
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleOC.js";
 
   var ArticleOC = function ArticleOC(props) {
     var feedHeight = _reactNative.Dimensions.get('window').height * 2;

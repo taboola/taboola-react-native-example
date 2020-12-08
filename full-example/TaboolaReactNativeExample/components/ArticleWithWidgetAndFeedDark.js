@@ -10,7 +10,7 @@ import WidgetDark from "./WidgetDark";
 
 class ArticleWithWidgetAndFeedDark extends React.Component {
   state = {
-    widgetLoaded: true,
+    widgetLoaded: false,
     viewID: new Date().getTime().toString(),
   };
 
