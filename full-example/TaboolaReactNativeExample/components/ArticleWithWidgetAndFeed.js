@@ -15,6 +15,8 @@ class ArticleWithWidgetAndFeed extends React.Component {
   };
 
   setWidgetLoaded() {
+    console.info('XXX: Taboola call setWidget=');
+
     this.setState({widgetLoaded: true});
   }
 

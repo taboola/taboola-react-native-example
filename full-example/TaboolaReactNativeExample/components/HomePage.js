@@ -8,6 +8,12 @@ export default class HomePage extends Component {
 		return (
 			<View>
 				<TaboolaLogo />
+
+				<NavButton
+					onPress={e => this.props.setCurrentPage('WidgetInFlatListDemo')}
+					title=" FlatList Demo"
+				/>
+
 				<NavButton
 					onPress={e => this.props.setCurrentPage('WidgetDemo')}
 					title="Widget"
@@ -16,10 +22,7 @@ export default class HomePage extends Component {
 					onPress={e => this.props.setCurrentPage('WidgetDemoDark')}
 					title="Widget Dark"
 				/>
-				<NavButton
-					onPress={e => this.props.setCurrentPage('WidgetInFlatListDemo')}
-					title="Widget In FlatList Demo"
-				/>
+
 				<NavButton
 					onPress={e => this.props.setCurrentPage('FeedDemo')}
 					title="Feed + Video"

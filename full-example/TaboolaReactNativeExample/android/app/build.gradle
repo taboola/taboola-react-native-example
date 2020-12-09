@@ -107,6 +107,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        setProperty("archivesBaseName", "TaboolaFlatList" + "-" + versionName + "(v" + versionCode + ")")
+
     }
     splits {
         abi {

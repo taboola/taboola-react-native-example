@@ -12,7 +12,7 @@ const Feed = props => {
 	const publisher = Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
 
 	// Get the dimensions of the screen and set the feed height to twice the screen height
-	const feedHeight = Dimensions.get('window').height * 2
+	const feedHeight = Dimensions.get('window').height *2
 	const [height, setHeight] = useState(feedHeight)
 
 	return (
@@ -26,7 +26,8 @@ const Feed = props => {
 			targetType={props.targetType}
 		    interceptScroll={true}
 			extraProperties={props.extraProperties}
-			style={{ height, width: '100%', flex:1 }}
+			//style={{ height, width: '100%', flex:1 }}
+			style={{ height}}
 			onDidLoad={event => {
 				// This lets us implement other logic into this callback via props
 				props.onDidLoad(event);

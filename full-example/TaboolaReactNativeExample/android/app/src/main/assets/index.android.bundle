@@ -1387,7 +1387,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,427,480],"index.js");
+},0,[1,2,427,481],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -89272,7 +89272,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = App;
   exports.default = _default;
-},427,[1,163,171,164,166,169,50,2,428,459,460,462,463,467,472,473,474,476,478,479],"App.js");
+},427,[1,163,171,164,166,169,50,2,428,459,463,464,465,469,474,475,476,478,479,480],"App.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97089,13 +97089,19 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Widget = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "./Widget"));
 
-  var _BackButton = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "./styles/BackButton"));
+  var _WidgetDark = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "./WidgetDark"));
 
-  var _StyledText = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "./styles/StyledText"));
+  var _Feed = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "./Feed"));
 
-  var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./styles/Header"));
+  var _WidgetNew = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./WidgetNew"));
 
-  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "../static/paragraphs"));
+  var _BackButton = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./styles/BackButton"));
+
+  var _StyledText = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./styles/StyledText"));
+
+  var _Header = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./styles/Header"));
+
+  var _paragraphs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "../static/paragraphs"));
 
   var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/ArticleWithWidgetInFlatList.js";
 
@@ -97104,7 +97110,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       key: "p1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 14,
         columnNumber: 13
       }
     }, _paragraphs.default[0]);
@@ -97113,7 +97119,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       key: "p2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 13
       }
     }, _paragraphs.default[1]);
@@ -97121,7 +97127,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     return _react.default.createElement(_reactNative.View, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 18,
         columnNumber: 3
       }
     }, _react.default.createElement(_BackButton.default, {
@@ -97131,14 +97137,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       title: "Back",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 4
       }
     }), _react.default.createElement(_Header.default, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 5
+        lineNumber: 21,
+        columnNumber: 4
       }
     }, "Here's a Taboola Widget in FlatList"), _react.default.createElement(_reactNative.FlatList, {
       style: {
@@ -97154,6 +97160,20 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         key: 'taboola'
       }, {
         key: 'p2'
+      }, {
+        key: 'taboolaDark'
+      }, {
+        key: 'p5'
+      }, {
+        key: 'p6'
+      }, {
+        key: 'taboolaWidgetNew'
+      }, {
+        key: 'p7'
+      }, {
+        key: 'p8'
+      }, {
+        key: 'feed'
       }],
       renderItem: function renderItem(_ref) {
         var item = _ref.item;
@@ -97169,14 +97189,53 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             return p1;
 
           case 'p4':
+            return p2;
+
+          case 'p5':
             return p1;
+
+          case 'p6':
+            return p2;
+
+          case 'p7':
+            return p1;
+
+          case 'p8':
+            return p2;
 
           case 'taboola':
             return _react.default.createElement(_Widget.default, {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 33,
-                columnNumber: 16
+                lineNumber: 58,
+                columnNumber: 15
+              }
+            });
+
+          case 'taboolaDark':
+            return _react.default.createElement(_WidgetDark.default, {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 60,
+                columnNumber: 15
+              }
+            });
+
+          case 'taboolaWidgetNew':
+            return _react.default.createElement(_WidgetNew.default, {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 62,
+                columnNumber: 15
+              }
+            });
+
+          case 'feed':
+            return _react.default.createElement(_Feed.default, {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 65,
+                columnNumber: 15
               }
             });
 
@@ -97186,8 +97245,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 5
+        lineNumber: 22,
+        columnNumber: 4
       }
     }));
   };
@@ -97197,7 +97256,251 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetInFlatList;
   exports.default = _default;
-},459,[1,50,2,66,429,437,456,457,458],"components/ArticleWithWidgetInFlatList.js");
+},459,[1,50,2,66,429,460,461,462,437,456,457,458],"components/ArticleWithWidgetInFlatList.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _slicedToArray2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/slicedToArray"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "prop-types"));
+
+  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@taboola/react-native-taboola"));
+
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetDark.js";
+
+  var WidgetDark = function WidgetDark(props) {
+    var _useState = (0, _react.useState)(0),
+        _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+        height = _useState2[0],
+        setHeight = _useState2[1];
+
+    return _react.default.createElement(_reactNativeTaboola.default, {
+      darkMode: true,
+      mode: props.mode,
+      publisher: props.publisher,
+      pageType: props.pageType,
+      pageUrl: props.pageUrl,
+      placement: props.placement,
+      targetType: props.targetType,
+      viewID: props.viewID,
+      style: {
+        height: height,
+        width: '100%',
+        backgroundColor: props.setBackgroundColor
+      },
+      onDidLoad: function onDidLoad(event) {
+        props.onDidLoad(event);
+        setHeight(Number(event.nativeEvent.height));
+      },
+      onDidFailToLoad: function onDidFailToLoad(event) {
+        setHeight(0);
+      },
+      onItemClick: function onItemClick(event) {},
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 5
+      }
+    });
+  };
+
+  WidgetDark.defaultProps = {
+    mode: 'alternating-widget-1x2',
+    publisher: 'sdk-tester-demo',
+    pageType: 'article',
+    pageUrl: 'https://blog.taboola.com',
+    placement: 'Mid Article',
+    targetType: 'mix',
+    viewID: new Date().getTime().toString(),
+    setBackgroundColor: '',
+    onDidLoad: function onDidLoad() {}
+  };
+  WidgetDark.propTypes = {
+    mode: _propTypes.default.string.isRequired,
+    publisher: _propTypes.default.string.isRequired,
+    pageType: _propTypes.default.string.isRequired,
+    pageUrl: _propTypes.default.string.isRequired,
+    placement: _propTypes.default.string.isRequired,
+    targetType: _propTypes.default.string.isRequired,
+    viewID: _propTypes.default.string,
+    setBackgroundColor: _propTypes.default.string
+  };
+  var _default = WidgetDark;
+  exports.default = _default;
+},460,[1,430,431,50,66,435],"components/WidgetDark.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _slicedToArray2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/slicedToArray"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "prop-types"));
+
+  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
+
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Feed.js";
+
+  var Feed = function Feed(props) {
+    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester' : 'sdk-tester';
+    var feedHeight = _reactNative.Dimensions.get('window').height * 2;
+
+    var _useState = (0, _react.useState)(feedHeight),
+        _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+        height = _useState2[0],
+        setHeight = _useState2[1];
+
+    return _react.default.createElement(_reactNativeTaboola.default, {
+      viewID: props.viewID,
+      mode: props.mode,
+      publisher: publisher,
+      pageType: props.pageType,
+      pageUrl: props.pageUrl,
+      placement: props.placement,
+      targetType: props.targetType,
+      interceptScroll: true,
+      extraProperties: props.extraProperties,
+      style: {
+        height: height
+      },
+      onDidLoad: function onDidLoad(event) {
+        props.onDidLoad(event);
+      },
+      onDidFailToLoad: function onDidFailToLoad(event) {
+        setHeight(0);
+      },
+      onItemClick: function onItemClick(event) {},
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 4
+      }
+    });
+  };
+
+  Feed.defaultProps = {
+    extraProperties: {},
+    mode: 'thumbnails-a',
+    pageType: 'article',
+    pageUrl: 'https://blog.taboola.com',
+    placement: 'Feed without video',
+    targetType: 'mix',
+    onDidLoad: function onDidLoad() {}
+  };
+  Feed.propTypes = {
+    extraProperties: _propTypes.default.shape({
+      cex: _propTypes.default.string,
+      cdns: _propTypes.default.string
+    }).isRequired,
+    mode: _propTypes.default.string.isRequired,
+    pageType: _propTypes.default.string.isRequired,
+    pageUrl: _propTypes.default.string.isRequired,
+    placement: _propTypes.default.string.isRequired,
+    targetType: _propTypes.default.string.isRequired,
+    viewID: _propTypes.default.string
+  };
+  var _default = Feed;
+  exports.default = _default;
+},461,[1,430,431,50,2,66,435],"components/Feed.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _slicedToArray2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/slicedToArray"));
+
+  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
+
+  var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
+
+  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "prop-types"));
+
+  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
+
+  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetNew.js";
+
+  var WidgetNew = function WidgetNew(props) {
+    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester-rnd' : 'sdk-tester-rnd';
+
+    var _useState = (0, _react.useState)(0),
+        _useState2 = (0, _slicedToArray2.default)(_useState, 2),
+        height = _useState2[0],
+        setHeight = _useState2[1];
+
+    return _react.default.createElement(_reactNativeTaboola.default, {
+      mode: props.mode,
+      publisher: publisher,
+      pageType: props.pageType,
+      pageUrl: props.pageUrl,
+      placement: props.placement,
+      targetType: props.targetType,
+      viewID: props.viewID,
+      style: {
+        height: height,
+        width: '100%',
+        backgroundColor: props.setBackgroundColor
+      },
+      onDidLoad: function onDidLoad(event) {
+        props.onDidLoad(event);
+        setHeight(Number(event.nativeEvent.height));
+      },
+      onDidFailToLoad: function onDidFailToLoad(event) {
+        setHeight(0);
+      },
+      onItemClick: function onItemClick(event) {},
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 5
+      }
+    });
+  };
+
+  WidgetNew.defaultProps = {
+    mode: 'alternating-widget-without-video-1x2',
+    pageType: 'article',
+    pageUrl: 'https://blog.taboola.com',
+    placement: 'Mid Article',
+    targetType: 'mix',
+    viewID: new Date().getTime().toString(),
+    setBackgroundColor: '',
+    onDidLoad: function onDidLoad() {}
+  };
+  WidgetNew.propTypes = {
+    mode: _propTypes.default.string.isRequired,
+    pageType: _propTypes.default.string.isRequired,
+    pageUrl: _propTypes.default.string.isRequired,
+    placement: _propTypes.default.string.isRequired,
+    targetType: _propTypes.default.string.isRequired,
+    viewID: _propTypes.default.string,
+    setBackgroundColor: _propTypes.default.string
+  };
+  var _default = WidgetNew;
+  exports.default = _default;
+},462,[1,430,431,50,2,66,435],"components/WidgetNew.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97273,92 +97576,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithFeed;
   exports.default = _default;
-},460,[1,50,2,66,461,437,456,457,458],"components/ArticleWithFeed.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _slicedToArray2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/slicedToArray"));
-
-  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
-
-  var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
-
-  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "prop-types"));
-
-  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[6], "@taboola/react-native-taboola"));
-
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/Feed.js";
-
-  var Feed = function Feed(props) {
-    var publisher = _reactNative.Platform.OS === 'ios' ? 'sdk-tester-demo' : 'sdk-tester-demo';
-    var feedHeight = _reactNative.Dimensions.get('window').height * 2;
-
-    var _useState = (0, _react.useState)(feedHeight),
-        _useState2 = (0, _slicedToArray2.default)(_useState, 2),
-        height = _useState2[0],
-        setHeight = _useState2[1];
-
-    return _react.default.createElement(_reactNativeTaboola.default, {
-      viewID: props.viewID,
-      mode: props.mode,
-      publisher: publisher,
-      pageType: props.pageType,
-      pageUrl: props.pageUrl,
-      placement: props.placement,
-      targetType: props.targetType,
-      interceptScroll: true,
-      extraProperties: props.extraProperties,
-      style: {
-        height: height,
-        width: '100%',
-        flex: 1
-      },
-      onDidLoad: function onDidLoad(event) {
-        props.onDidLoad(event);
-      },
-      onDidFailToLoad: function onDidFailToLoad(event) {
-        setHeight(0);
-      },
-      onItemClick: function onItemClick(event) {},
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 4
-      }
-    });
-  };
-
-  Feed.defaultProps = {
-    extraProperties: {},
-    mode: 'thumbnails-a',
-    pageType: 'article',
-    pageUrl: 'https://blog.taboola.com',
-    placement: 'Feed without video',
-    targetType: 'mix',
-    onDidLoad: function onDidLoad() {}
-  };
-  Feed.propTypes = {
-    extraProperties: _propTypes.default.shape({
-      cex: _propTypes.default.string,
-      cdns: _propTypes.default.string
-    }).isRequired,
-    mode: _propTypes.default.string.isRequired,
-    pageType: _propTypes.default.string.isRequired,
-    pageUrl: _propTypes.default.string.isRequired,
-    placement: _propTypes.default.string.isRequired,
-    targetType: _propTypes.default.string.isRequired,
-    viewID: _propTypes.default.string
-  };
-  var _default = Feed;
-  exports.default = _default;
-},461,[1,430,431,50,2,66,435],"components/Feed.js");
+},463,[1,50,2,66,461,437,456,457,458],"components/ArticleWithFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97426,6 +97644,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     (0, _createClass2.default)(ArticleWithWidgetAndFeed, [{
       key: "setWidgetLoaded",
       value: function setWidgetLoaded() {
+        console.info('XXX: Taboola call setWidget=');
         this.setState({
           widgetLoaded: true
         });
@@ -97438,7 +97657,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         return _react.default.createElement(_reactNative.View, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 25,
             columnNumber: 7
           }
         }, _react.default.createElement(_BackButton.default, {
@@ -97448,19 +97667,19 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Back",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 9
           }
         }), _react.default.createElement(_Header.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 25,
+            lineNumber: 27,
             columnNumber: 11
           }
         }, "Here's a Taboola Widget and Feed"), _react.default.createElement(_StyledText.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 26,
+            lineNumber: 28,
             columnNumber: 11
           }
         }, _paragraphs.default[1]), _react.default.createElement(_Widget.default, {
@@ -97470,20 +97689,20 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 29,
             columnNumber: 11
           }
         }), _react.default.createElement(_StyledText.default, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 32,
+            lineNumber: 34,
             columnNumber: 11
           }
         }, _paragraphs.default[1]), this.state.widgetLoaded && _react.default.createElement(_Feed.default, {
           viewID: this.state.viewID,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 37,
             columnNumber: 39
           }
         }));
@@ -97497,7 +97716,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetAndFeed;
   exports.default = _default;
-},462,[1,163,171,164,166,169,50,2,66,429,461,437,456,457,458],"components/ArticleWithWidgetAndFeed.js");
+},464,[1,163,171,164,166,169,50,2,66,429,461,437,456,457,458],"components/ArticleWithWidgetAndFeed.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97561,12 +97780,22 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           }
         }), _react.default.createElement(_NavButton.default, {
           onPress: function onPress(e) {
+            return _this.props.setCurrentPage('WidgetInFlatListDemo');
+          },
+          title: " FlatList Demo",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 12,
+            columnNumber: 5
+          }
+        }), _react.default.createElement(_NavButton.default, {
+          onPress: function onPress(e) {
             return _this.props.setCurrentPage('WidgetDemo');
           },
           title: "Widget",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 11,
+            lineNumber: 17,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97576,17 +97805,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Widget Dark",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 15,
-            columnNumber: 5
-          }
-        }), _react.default.createElement(_NavButton.default, {
-          onPress: function onPress(e) {
-            return _this.props.setCurrentPage('WidgetInFlatListDemo');
-          },
-          title: "Widget In FlatList Demo",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97596,7 +97815,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Feed + Video",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 23,
+            lineNumber: 26,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97606,7 +97825,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Feed Dark",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 30,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97616,7 +97835,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Widget and Feed ",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 31,
+            lineNumber: 34,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97626,7 +97845,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Widget Dark and Feed  Dark",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 38,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97636,7 +97855,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Taboola Handle Organic Click",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39,
+            lineNumber: 42,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97646,7 +97865,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Test Widget Parameters",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 43,
+            lineNumber: 46,
             columnNumber: 5
           }
         }), _react.default.createElement(_NavButton.default, {
@@ -97656,7 +97875,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           title: "Test Feed Parameters + Extra Prop",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 47,
+            lineNumber: 50,
             columnNumber: 5
           }
         }));
@@ -97666,7 +97885,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }(_react.Component);
 
   exports.default = HomePage;
-},463,[1,430,163,171,164,166,169,50,2,464,466],"components/HomePage.js");
+},465,[1,430,163,171,164,166,169,50,2,466,468],"components/HomePage.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97710,7 +97929,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = TaboolaLogo;
   exports.default = _default;
-},464,[1,438,50,439,465],"components/TaboolaLogo.js");
+},466,[1,438,50,439,467],"components/TaboolaLogo.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/node_modules/react-native/Libraries/Image/AssetRegistry").registerAsset({
     "__packager_asset": true,
@@ -97722,7 +97941,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     "name": "taboola-logo",
     "type": "png"
   });
-},465,[202],"assets/taboola-logo.png");
+},467,[202],"assets/taboola-logo.png");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -97773,7 +97992,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = NavButton;
   exports.default = _default;
-},466,[1,53,438,50,2,439],"components/styles/NavButton.js");
+},468,[1,53,438,50,2,439],"components/styles/NavButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98081,7 +98300,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = WidgetForm;
   exports.default = _default;
-},467,[1,430,53,325,163,171,164,166,169,50,2,66,429,468,470,437,471,457],"components/WidgetForm.js");
+},469,[1,430,53,325,163,171,164,166,169,50,2,66,429,470,472,437,473,457],"components/WidgetForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98112,7 +98331,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = CustomTextInput;
   exports.default = _default;
-},468,[1,53,50,469],"components/CustomTextInput.js");
+},470,[1,53,50,471],"components/CustomTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98167,7 +98386,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = StyledTextInput;
   exports.default = _default;
-},469,[1,53,438,50,2,439],"components/styles/StyledTextInput.js");
+},471,[1,53,438,50,2,439],"components/styles/StyledTextInput.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98194,7 +98413,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Label;
   exports.default = _default;
-},470,[1,438,439],"components/styles/Label.js");
+},472,[1,438,439],"components/styles/Label.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98272,7 +98491,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = SubmitButton;
   exports.default = _default;
-},471,[1,53,438,50,2,439],"components/styles/SubmitButton.js");
+},473,[1,53,438,50,2,439],"components/styles/SubmitButton.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98602,7 +98821,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = FeedForm;
   exports.default = _default;
-},472,[1,430,53,325,163,171,164,166,169,50,2,66,461,468,470,437,471,457],"components/FeedForm.js");
+},474,[1,430,53,325,163,171,164,166,169,50,2,66,461,470,472,437,473,457],"components/FeedForm.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98629,7 +98848,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = Container;
   exports.default = _default;
-},473,[1,438,439],"components/styles/Container.js");
+},475,[1,438,439],"components/styles/Container.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98705,7 +98924,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithFeedDark;
   exports.default = _default;
-},474,[1,50,2,66,437,456,457,458,475],"components/ArticleWithFeedDark.js");
+},476,[1,50,2,66,437,456,457,458,477],"components/ArticleWithFeedDark.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98784,7 +99003,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = FeedDark;
   exports.default = _default;
-},475,[1,430,431,50,2,66,435],"components/FeedDark.js");
+},477,[1,430,431,50,2,66,435],"components/FeedDark.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -98866,87 +99085,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetDark;
   exports.default = _default;
-},476,[1,50,2,66,437,456,457,458,477],"components/ArticleWithWidgetDark.js");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  var _interopRequireWildcard = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/interopRequireWildcard");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _slicedToArray2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/slicedToArray"));
-
-  var _react = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[3], "react"));
-
-  var _propTypes = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "prop-types"));
-
-  var _reactNativeTaboola = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "@taboola/react-native-taboola"));
-
-  var _jsxFileName = "/Users/serhiykorynevych/Projects/taboola_git_user_example/taboola-react-native-example/full-example/TaboolaReactNativeExample/components/WidgetDark.js";
-
-  var WidgetDark = function WidgetDark(props) {
-    var _useState = (0, _react.useState)(0),
-        _useState2 = (0, _slicedToArray2.default)(_useState, 2),
-        height = _useState2[0],
-        setHeight = _useState2[1];
-
-    return _react.default.createElement(_reactNativeTaboola.default, {
-      darkMode: true,
-      mode: props.mode,
-      publisher: props.publisher,
-      pageType: props.pageType,
-      pageUrl: props.pageUrl,
-      placement: props.placement,
-      targetType: props.targetType,
-      viewID: props.viewID,
-      style: {
-        height: height,
-        width: '100%',
-        backgroundColor: props.setBackgroundColor
-      },
-      onDidLoad: function onDidLoad(event) {
-        props.onDidLoad(event);
-        setHeight(Number(event.nativeEvent.height));
-      },
-      onDidFailToLoad: function onDidFailToLoad(event) {
-        setHeight(0);
-      },
-      onItemClick: function onItemClick(event) {},
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 5
-      }
-    });
-  };
-
-  WidgetDark.defaultProps = {
-    mode: 'alternating-widget-1x2',
-    publisher: 'sdk-tester-demo',
-    pageType: 'article',
-    pageUrl: 'https://blog.taboola.com',
-    placement: 'Mid Article',
-    targetType: 'mix',
-    viewID: new Date().getTime().toString(),
-    setBackgroundColor: '',
-    onDidLoad: function onDidLoad() {}
-  };
-  WidgetDark.propTypes = {
-    mode: _propTypes.default.string.isRequired,
-    publisher: _propTypes.default.string.isRequired,
-    pageType: _propTypes.default.string.isRequired,
-    pageUrl: _propTypes.default.string.isRequired,
-    placement: _propTypes.default.string.isRequired,
-    targetType: _propTypes.default.string.isRequired,
-    viewID: _propTypes.default.string,
-    setBackgroundColor: _propTypes.default.string
-  };
-  var _default = WidgetDark;
-  exports.default = _default;
-},477,[1,430,431,50,66,435],"components/WidgetDark.js");
+},478,[1,50,2,66,437,456,457,458,460],"components/ArticleWithWidgetDark.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -99085,7 +99224,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleWithWidgetAndFeedDark;
   exports.default = _default;
-},478,[1,163,171,164,166,169,50,2,66,437,456,457,458,475,477],"components/ArticleWithWidgetAndFeedDark.js");
+},479,[1,163,171,164,166,169,50,2,66,437,456,457,458,477,460],"components/ArticleWithWidgetAndFeedDark.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -99210,12 +99349,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
   var _default = ArticleOC;
   exports.default = _default;
-},479,[1,430,431,50,66,2,458,456,437,457,435],"components/ArticleOC.js");
+},480,[1,430,431,50,66,2,458,456,437,457,435],"components/ArticleOC.js");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "TaboolaReactNativeExample",
   "displayName": "TaboolaReactNativeExample"
 };
-},480,[],"app.json");
+},481,[],"app.json");
 __r(88);
 __r(0);
