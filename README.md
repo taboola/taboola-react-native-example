@@ -12,18 +12,18 @@ Taboola react-native plugin allows react-native publishers to display Taboola's 
 To get started with the plugin, please follow this link [Taboola React-Native documentation](https://developers.taboola.com/taboolasdk/docs/taboola-react-native-plugin).
 
 ## How to run the Example App
-<br>
-iOS: 
+
+**iOS:**
 <br>
 1: Run 'npm install' from the project root folder.<br>
 2: cd ios<br>
 3: pod update<br>
 4: npx react-native run-ios<br>
 <br>
-Android:
+**Android:**
 <br>
 1: Run 'npm install' from the project root folder.<br>
-2: Add the file local.properties to the project android folder with sdk.dir=/path/to/android/sdk/Library/Android/sdk<br>
+2: Add the file local.properties to the android root folder with the following path definition: sdk.dir=/path/to/android/sdk/Library/Android/sdk<br>
 3: npx react-native run-android<br>
 
 ## Contact Us
