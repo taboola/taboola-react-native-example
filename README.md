@@ -1,6 +1,6 @@
 # Taboola React-Native plugin
 
-Latest plugin Version: 2.1.1 
+Latest plugin Version: 2.2.0 
 <br>
 Android SDK 2.8.1 
 <br>
