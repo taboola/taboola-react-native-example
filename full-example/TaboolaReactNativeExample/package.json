@@ -12,10 +12,7 @@
   "dependencies": {
     "react": "18.1.0",
     "react-native": "0.70.6",
-    "@taboola/react-native-taboola": "2.3.8",
-    "styled-components": "^4.4.1"
-
-
+    "@taboola/react-native-taboola": "2.3.8"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
