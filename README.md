@@ -13,6 +13,8 @@ To get started with the plugin, please follow this link [Taboola React-Native do
 
 ## How to run the Example App
 
+first 'run npm -force install'
+
 **iOS:**
 <br>
 1: Run 'npm install' from the project root folder.<br>
