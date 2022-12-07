@@ -1,6 +1,0 @@
-framework module TaboolaSDK {
-  umbrella header "TaboolaSDK.h"
-
-  export *
-  module * { export * }
-}

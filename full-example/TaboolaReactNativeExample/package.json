@@ -1,28 +1,33 @@
 {
-	"name": "taboola-react-native-example",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"android-mac": "react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle - assets-dest android/app/src/main/res && react-native run-android",
-		"ios": "react-native run-ios",
-		"test": "jest"
-	},
-	"dependencies": {
-		"@taboola/react-native-taboola": "^2.2.0",
-		"react": "16.8.3",
-		"react-native": "0.59.10",
-		"styled-components": "^4.4.1"
-	},
-	"devDependencies": {
-		"@babel/core": "7.8.4",
-		"@babel/runtime": "7.8.4",
-		"babel-jest": "25.1.0",
-		"jest": "25.1.0",
-		"metro-react-native-babel-preset": "0.58.0",
-		"react-test-renderer": "16.8.3"
-	},
-	"jest": {
-		"preset": "react-native"
-	}
+  "name": "TaboolaReactNativeExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "@taboola/react-native-taboola": "2.3.8",
+    "styled-components": "^4.4.1"
+
+
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
